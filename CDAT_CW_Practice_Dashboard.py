@@ -1,0 +1,207 @@
+import os
+
+import pandas as pd
+import streamlit as st
+
+CSV_PATH = r"\\azatshfs.intel.com\azatanalysis$\MAOATM\CDAT\zhaohua\CDAT_CW_Practice_data_his.csv"
+
+st.set_page_config(page_title="CW Practice Dashboard", page_icon="📊", layout="wide")
+
+
+@st.cache_data(ttl=600)
+def load_data(path: str) -> pd.DataFrame:
+    df = pd.read_csv(path)
+    return df
+
+
+st.title("📊 CW Practice Data Dashboard")
+
+with st.sidebar:
+    st.header("Filters")
+    if st.button("🔄 Refresh data"):
+        load_data.clear()
+
+try:
+    df = load_data(CSV_PATH)
+except FileNotFoundError:
+    st.error(f"Could not find CSV file at:\n\n{CSV_PATH}")
+    st.stop()
+except OSError as e:
+    st.error(f"Could not read CSV file (network path may be unavailable): {e}")
+    st.stop()
+
+try:
+    data_updated = pd.Timestamp.fromtimestamp(os.path.getmtime(CSV_PATH)).strftime("%Y-%m-%d %H:%M")
+except OSError:
+    data_updated = "unknown"
+page_loaded = pd.Timestamp.now().strftime("%Y-%m-%d %H:%M")
+st.caption(f"📅 Data last updated: **{data_updated}** · Page loaded: **{page_loaded}**")
+
+with st.sidebar:
+    site_months = st.multiselect("Site month", sorted(df["site_month"].unique()))
+    modules = st.multiselect("Module", sorted(df["module"].dropna().unique()))
+    teams = st.multiselect("Team", sorted(df["team"].unique()))
+    supers = st.multiselect("Supervisor", sorted(df["super"].dropna().unique()))
+    names = st.multiselect("Name", sorted(df["name"].dropna().unique()))
+    operations = st.multiselect("Operation", sorted(df["operation"].dropna().unique()))
+
+filtered = df.copy()
+if site_months:
+    filtered = filtered[filtered["site_month"].isin(site_months)]
+if modules:
+    filtered = filtered[filtered["module"].isin(modules)]
+if teams:
+    filtered = filtered[filtered["team"].isin(teams)]
+if supers:
+    filtered = filtered[filtered["super"].isin(supers)]
+if names:
+    filtered = filtered[filtered["name"].isin(names)]
+if operations:
+    filtered = filtered[filtered["operation"].isin(operations)]
+
+st.caption(f"Showing **{len(filtered):,}** of {len(df):,} rows")
+
+col1, col2, col3, col4 = st.columns(4)
+col1.metric("Total lots", f"{len(filtered):,}")
+col2.metric("Total practice qty", f"{filtered['practice_lot_qty'].sum():,.0f}")
+col3.metric("Total shift qty", f"{filtered['practice_shift_qty'].sum():,.0f}")
+col4.metric("Distinct operators", f"{filtered['name'].nunique():,}")
+
+tab_goal, tab_trend, tab_by_person, tab_by_module, tab_data = st.tabs(
+    ["🎯 Goal comparison", "📈 Trend", "🧑 By operator", "🏭 By module", "📄 Raw data"]
+)
+
+with tab_trend:
+    by_site_month = (
+        filtered.groupby("site_month")["practice_lot_qty"]
+        .sum()
+        .sort_index()
+    )
+    if by_site_month.empty:
+        st.info("No data for the selected filters.")
+    else:
+        st.bar_chart(by_site_month)
+
+with tab_by_person:
+    by_name = (
+        filtered.groupby("name")
+        .agg(
+            practice_qty=("practice_lot_qty", "sum"),
+            goal=("monthly practice goal", "sum"),
+            lots=("name", "count"),
+        )
+        .sort_values("practice_qty", ascending=False)
+        .head(30)
+    )
+    if by_name.empty:
+        st.info("No data for the selected filters.")
+    else:
+        st.bar_chart(by_name["practice_qty"])
+        st.dataframe(by_name, use_container_width=True)
+
+with tab_by_module:
+    by_module = (
+        filtered.groupby("module")["practice_lot_qty"].sum().sort_values(ascending=False)
+    )
+    if by_module.empty:
+        st.info("No data for the selected filters.")
+    else:
+        st.bar_chart(by_module)
+
+with tab_goal:
+    summary = (
+        filtered.groupby(["name", "site_month", "module", "operation"])
+        .agg(
+            team=("team", "first"),
+            super=("super", "first"),
+            practiced_qty=("practice_lot_qty", "sum"),
+            **{"monthly practice goal": ("monthly practice goal", "max")},
+        )
+        .reset_index()
+    )
+    summary = summary[["site_month", "module", "name", "team", "super", "operation", "practiced_qty", "monthly practice goal"]]
+    if summary.empty:
+        st.info("No data for the selected filters.")
+    else:
+        summary["attainment_%"] = (
+            summary["practiced_qty"]
+            / summary["monthly practice goal"].replace(0, pd.NA)
+            * 100
+        ).round(1)
+        summary["gap_to_goal"] = (
+            summary["monthly practice goal"] - summary["practiced_qty"]
+        )
+        summary["met_goal"] = summary["practiced_qty"] >= summary["monthly practice goal"]
+        summary = summary.sort_values("attainment_%", ascending=True).reset_index(drop=True)
+
+        goal_status = st.radio(
+            "Goal status",
+            ["All", "Met goal", "Not met goal"],
+            horizontal=True,
+            key="goal_status_filter",
+        )
+        if goal_status == "Met goal":
+            summary = summary[summary["met_goal"]]
+        elif goal_status == "Not met goal":
+            summary = summary[~summary["met_goal"]]
+
+        display_summary = summary.rename(columns=lambda c: c[:1].upper() + c[1:])
+
+        col_a, col_b = st.columns(2)
+        col_a.metric("Operator/month/module/operation combos", f"{len(summary):,}")
+        col_b.metric("Met goal", f"{summary['met_goal'].sum():,} / {len(summary):,}")
+
+        if summary.empty:
+            st.info("No rows match the selected goal status filter.")
+        else:
+            def highlight_goal(row):
+                color = "background-color: #c6efce" if row["Met_goal"] else "background-color: #ffc7ce"
+                return [color] * len(row)
+
+            st.caption("Click a value in the Practiced_qty column to see its lot details below.")
+            event = st.dataframe(
+                display_summary.style.apply(highlight_goal, axis=1).format({"Attainment_%": "{:.1f}%"}),
+                use_container_width=True,
+                height=500,
+                on_select="rerun",
+                selection_mode="single-cell",
+            )
+            st.download_button(
+                "Download goal comparison as CSV",
+                data=summary.to_csv(index=False).encode("utf-8"),
+                file_name="goal_comparison_summary.csv",
+                mime="text/csv",
+                key="download_goal_summary",
+            )
+
+            selected_cells = event.selection.cells if event and event.selection else []
+            if selected_cells:
+                row_idx, col_name = selected_cells[0]
+                if col_name == "Practiced_qty":
+                    sel = summary.iloc[row_idx]
+                    detail = filtered[
+                        (filtered["name"] == sel["name"])
+                        & (filtered["site_month"] == sel["site_month"])
+                        & (filtered["module"] == sel["module"])
+                        & (filtered["operation"] == sel["operation"])
+                    ]
+                    st.subheader(
+                        f"Lot details — {sel['name']} · {sel['site_month']} · {sel['module']} · operation {sel['operation']}"
+                    )
+                    st.dataframe(detail, use_container_width=True)
+                    st.download_button(
+                        "Download lot details as CSV",
+                        data=detail.to_csv(index=False).encode("utf-8"),
+                        file_name="lot_details.csv",
+                        mime="text/csv",
+                        key="download_lot_details",
+                    )
+
+with tab_data:
+    st.dataframe(filtered, use_container_width=True, height=500)
+    st.download_button(
+        "Download filtered data as CSV",
+        data=filtered.to_csv(index=False).encode("utf-8"),
+        file_name="filtered_practice_data.csv",
+        mime="text/csv",
+    )
