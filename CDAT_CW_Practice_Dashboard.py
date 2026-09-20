@@ -12,10 +12,23 @@ CSV_PATH = os.environ.get("CW_CSV_PATH", DEFAULT_CSV_PATH)
 st.set_page_config(page_title="CW Practice Dashboard", page_icon="📊", layout="wide")
 
 
+def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
+    aliases = {
+        "month": "site_month",
+        "monthly_practice_goal": "monthly practice goal",
+    }
+    rename = {
+        source: target
+        for source, target in aliases.items()
+        if source in df.columns and target not in df.columns
+    }
+    return df.rename(columns=rename)
+
+
 @st.cache_data(ttl=600)
 def load_data(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
-    return df
+    return normalize_columns(df)
 
 
 st.title("📊 CW Practice Data Dashboard")

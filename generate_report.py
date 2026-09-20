@@ -10,6 +10,19 @@ CSV_PATH = r"\\azatshfs.intel.com\azatanalysis$\MAOATM\CDAT\zhaohua\CDAT_CW_Prac
 OUTPUT_PATH = r"\\azatshfs.intel.com\azatanalysis$\MAOATM\CDAT\zhaohua\CDAT_CW_Practice_Report.html"
 
 
+def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
+    aliases = {
+        "month": "site_month",
+        "monthly_practice_goal": "monthly practice goal",
+    }
+    rename = {
+        source: target
+        for source, target in aliases.items()
+        if source in df.columns and target not in df.columns
+    }
+    return df.rename(columns=rename)
+
+
 def build_goal_summary(df: pd.DataFrame) -> pd.DataFrame:
     summary = (
         df.groupby(["name", "site_month", "module", "operation"])
@@ -38,7 +51,7 @@ def highlight_goal(row: pd.Series) -> list[str]:
 
 
 def main() -> None:
-    df = pd.read_csv(CSV_PATH)
+    df = normalize_columns(pd.read_csv(CSV_PATH))
 
     goal_summary = build_goal_summary(df)
     by_site_month = df.groupby("site_month")["practice_lot_qty"].sum().sort_index()
