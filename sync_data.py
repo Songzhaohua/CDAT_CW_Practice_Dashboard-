@@ -28,24 +28,6 @@ def refresh_local_snapshot(
     try:
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, destination)
-        try:
-            df = pd.read_csv(destination)
-            goal_col = (
-                "monthly_practice_goal"
-                if "monthly_practice_goal" in df.columns
-                else "monthly practice goal"
-                if "monthly practice goal" in df.columns
-                else None
-            )
-            if (
-                goal_col
-                and "practice_lot_qty" in df.columns
-                and "Complete_80_percent_tasks" not in df.columns
-            ):
-                df["Complete_80_percent_tasks"] = df["practice_lot_qty"] >= (df[goal_col] * 0.8)
-                df.to_csv(destination, index=False)
-        except Exception:
-            pass
     except FileNotFoundError:
         return False, f"Source CSV not found: {source}"
     except OSError as exc:

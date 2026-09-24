@@ -21,14 +21,10 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
         if source in df.columns and target not in df.columns
     }
     normalized = df.rename(columns=rename)
-    if (
-        "Complete_80_percent_tasks" not in normalized.columns
-        and "monthly practice goal" in normalized.columns
-        and "practice_lot_qty" in normalized.columns
-    ):
-        normalized["Complete_80_percent_tasks"] = (
-            normalized["practice_lot_qty"] >= (normalized["monthly practice goal"] * 0.8)
-        )
+    if "Complete_80_percent_tasks" not in normalized.columns:
+        normalized["Complete_80_percent_tasks"] = ""
+    else:
+        normalized["Complete_80_percent_tasks"] = normalized["Complete_80_percent_tasks"].fillna("")
     return normalized
 
 
@@ -39,25 +35,39 @@ def build_goal_summary(df: pd.DataFrame) -> pd.DataFrame:
             team=("team", "first"),
             super=("super", "first"),
             practiced_qty=("practice_lot_qty", "sum"),
-            **{"monthly practice goal": ("monthly practice goal", "max")},
+            **{
+                "monthly practice goal": ("monthly practice goal", "max"),
+                "Complete_80_percent_tasks": (
+                    "Complete_80_percent_tasks",
+                    lambda s: s.dropna().iloc[0] if not s.dropna().empty else "",
+                ),
+            },
         )
         .reset_index()
     )
     summary = summary[
-        ["site_month", "module", "name", "team", "super", "operation", "practiced_qty", "monthly practice goal"]
+        [
+            "site_month",
+            "module",
+            "name",
+            "team",
+            "super",
+            "operation",
+            "practiced_qty",
+            "monthly practice goal",
+            "Complete_80_percent_tasks",
+        ]
     ]
     summary["attainment_%"] = (
         summary["practiced_qty"] / summary["monthly practice goal"].replace(0, pd.NA) * 100
     ).round(1)
     summary["gap_to_goal"] = summary["monthly practice goal"] - summary["practiced_qty"]
-    summary["Complete_80_percent_tasks"] = (
-        summary["practiced_qty"] >= (summary["monthly practice goal"] * 0.8)
-    )
     return summary.sort_values("attainment_%", ascending=True).reset_index(drop=True)
 
 
 def highlight_goal(row: pd.Series) -> list[str]:
-    color = "background-color: #c6efce" if row["Complete_80_percent_tasks"] else "background-color: #ffc7ce"
+    val = str(row.get("Complete_80_percent_tasks", "")).strip().upper()
+    color = "background-color: #c6efce" if val in ("Y", "YES", "TRUE", "1") else "background-color: #ffc7ce"
     return [color] * len(row)
 
 

@@ -25,14 +25,10 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
         if source in df.columns and target not in df.columns
     }
     normalized = df.rename(columns=rename)
-    if (
-        "Complete_80_percent_tasks" not in normalized.columns
-        and "monthly practice goal" in normalized.columns
-        and "practice_lot_qty" in normalized.columns
-    ):
-        normalized["Complete_80_percent_tasks"] = (
-            normalized["practice_lot_qty"] >= (normalized["monthly practice goal"] * 0.8)
-        )
+    if "Complete_80_percent_tasks" not in normalized.columns:
+        normalized["Complete_80_percent_tasks"] = ""
+    else:
+        normalized["Complete_80_percent_tasks"] = normalized["Complete_80_percent_tasks"].fillna("")
     return normalized
 
 
@@ -156,11 +152,29 @@ with tab_goal:
             team=("team", "first"),
             super=("super", "first"),
             practiced_qty=("practice_lot_qty", "sum"),
-            **{"monthly practice goal": ("monthly practice goal", "max")},
+            **{
+                "monthly practice goal": ("monthly practice goal", "max"),
+                "Complete_80_percent_tasks": (
+                    "Complete_80_percent_tasks",
+                    lambda s: s.dropna().iloc[0] if not s.dropna().empty else "",
+                ),
+            },
         )
         .reset_index()
     )
-    summary = summary[["site_month", "module", "name", "team", "super", "operation", "practiced_qty", "monthly practice goal"]]
+    summary = summary[
+        [
+            "site_month",
+            "module",
+            "name",
+            "team",
+            "super",
+            "operation",
+            "practiced_qty",
+            "monthly practice goal",
+            "Complete_80_percent_tasks",
+        ]
+    ]
     if summary.empty:
         st.info("No data for the selected filters.")
     else:
@@ -173,9 +187,6 @@ with tab_goal:
             summary["monthly practice goal"] - summary["practiced_qty"]
         )
         summary["met_goal"] = summary["practiced_qty"] >= summary["monthly practice goal"]
-        summary["Complete_80_percent_tasks"] = (
-            summary["practiced_qty"] >= (summary["monthly practice goal"] * 0.8)
-        )
         summary = summary.sort_values("attainment_%", ascending=True).reset_index(drop=True)
 
         goal_status = st.radio(
@@ -202,7 +213,8 @@ with tab_goal:
             st.info("No rows match the selected goal status filter.")
         else:
             def highlight_goal(row):
-                color = "background-color: #c6efce" if row["Complete_80_percent_tasks"] else "background-color: #ffc7ce"
+                val = str(row.get("Complete_80_percent_tasks", "")).strip().upper()
+                color = "background-color: #c6efce" if val in ("Y", "YES", "TRUE", "1") else "background-color: #ffc7ce"
                 return [color] * len(row)
 
             st.caption("Click a value in the Practiced_qty column to see its lot details below.")
