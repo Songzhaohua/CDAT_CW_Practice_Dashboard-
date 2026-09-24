@@ -3,6 +3,8 @@ import os
 import pandas as pd
 import streamlit as st
 
+from sync_data import SOURCE_PATH, refresh_local_snapshot
+
 # Streamlit Community Cloud has no access to the internal Intel network share, so the
 # default path is a snapshot committed to this repo (see sync_data.py). Set the
 # CW_CSV_PATH env var to point at the live UNC share when running on-prem.
@@ -33,10 +35,23 @@ def load_data(path: str) -> pd.DataFrame:
 
 st.title("📊 CW Practice Data Dashboard")
 
+def refresh_dashboard_data() -> None:
+    """Pull the newest snapshot from the source share when available, then reload the cache."""
+    if CSV_PATH == DEFAULT_CSV_PATH and os.path.exists(SOURCE_PATH):
+        ok, message = refresh_local_snapshot(SOURCE_PATH, CSV_PATH)
+        if not ok:
+            st.warning(message)
+            return
+        st.success(message)
+
+    load_data.clear()
+    st.rerun()
+
+
 with st.sidebar:
     st.header("Filters")
     if st.button("🔄 Refresh data"):
-        load_data.clear()
+        refresh_dashboard_data()
 
 try:
     df = load_data(CSV_PATH)
@@ -149,6 +164,9 @@ with tab_goal:
             summary["monthly practice goal"] - summary["practiced_qty"]
         )
         summary["met_goal"] = summary["practiced_qty"] >= summary["monthly practice goal"]
+        summary["Complete_80_percent_tasks"] = (
+            summary["practiced_qty"] >= (summary["monthly practice goal"] * 0.8)
+        )
         summary = summary.sort_values("attainment_%", ascending=True).reset_index(drop=True)
 
         goal_status = st.radio(
@@ -162,7 +180,10 @@ with tab_goal:
         elif goal_status == "Not met goal":
             summary = summary[~summary["met_goal"]]
 
-        display_summary = summary.rename(columns=lambda c: c[:1].upper() + c[1:])
+        display_summary = (
+            summary.drop(columns=["met_goal"])
+            .rename(columns=lambda c: c if c.startswith("Complete_") else c[:1].upper() + c[1:])
+        )
 
         col_a, col_b = st.columns(2)
         col_a.metric("Operator/month/module/operation combos", f"{len(summary):,}")
@@ -172,12 +193,13 @@ with tab_goal:
             st.info("No rows match the selected goal status filter.")
         else:
             def highlight_goal(row):
-                color = "background-color: #c6efce" if row["Met_goal"] else "background-color: #ffc7ce"
+                color = "background-color: #c6efce" if row["Complete_80_percent_tasks"] else "background-color: #ffc7ce"
                 return [color] * len(row)
 
             st.caption("Click a value in the Practiced_qty column to see its lot details below.")
             event = st.dataframe(
-                display_summary.style.apply(highlight_goal, axis=1).format({"Attainment_%": "{:.1f}%"}),
+                display_summary.style.apply(highlight_goal, axis=1)
+                .format({"Attainment_%": "{:.1f}%"}),
                 use_container_width=True,
                 height=500,
                 on_select="rerun",
@@ -185,7 +207,7 @@ with tab_goal:
             )
             st.download_button(
                 "Download goal comparison as CSV",
-                data=summary.to_csv(index=False).encode("utf-8"),
+                data=display_summary.to_csv(index=False).encode("utf-8"),
                 file_name="goal_comparison_summary.csv",
                 mime="text/csv",
                 key="download_goal_summary",

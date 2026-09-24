@@ -15,16 +15,33 @@ REPO_DIR = Path(__file__).parent
 DEST_PATH = REPO_DIR / "data" / "CDAT_CW_Practice_data_his.csv"
 
 
+def refresh_local_snapshot(
+    source_path: str | Path = SOURCE_PATH,
+    destination_path: str | Path = DEST_PATH,
+) -> tuple[bool, str]:
+    """Copy the latest source CSV into the repo snapshot and report the outcome."""
+    source = Path(source_path)
+    destination = Path(destination_path)
+
+    try:
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source, destination)
+    except FileNotFoundError:
+        return False, f"Source CSV not found: {source}"
+    except OSError as exc:
+        return False, f"Could not copy CSV from {source} to {destination}: {exc}"
+
+    return True, f"Copied CSV from {source} to {destination}."
+
+
 def run_git(*args: str) -> None:
     subprocess.run(["git", *args], cwd=REPO_DIR, check=True)
 
 
 def main() -> None:
-    DEST_PATH.parent.mkdir(parents=True, exist_ok=True)
-    try:
-        shutil.copyfile(SOURCE_PATH, DEST_PATH)
-    except OSError as e:
-        print(f"Could not read source CSV from network share: {e}", file=sys.stderr)
+    ok, message = refresh_local_snapshot()
+    if not ok:
+        print(message, file=sys.stderr)
         sys.exit(1)
 
     run_git("add", str(DEST_PATH))

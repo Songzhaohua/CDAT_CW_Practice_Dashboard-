@@ -41,12 +41,14 @@ def build_goal_summary(df: pd.DataFrame) -> pd.DataFrame:
         summary["practiced_qty"] / summary["monthly practice goal"].replace(0, pd.NA) * 100
     ).round(1)
     summary["gap_to_goal"] = summary["monthly practice goal"] - summary["practiced_qty"]
-    summary["met_goal"] = summary["practiced_qty"] >= summary["monthly practice goal"]
+    summary["Complete_80_percent_tasks"] = (
+        summary["practiced_qty"] >= (summary["monthly practice goal"] * 0.8)
+    )
     return summary.sort_values("attainment_%", ascending=True).reset_index(drop=True)
 
 
 def highlight_goal(row: pd.Series) -> list[str]:
-    color = "background-color: #c6efce" if row["met_goal"] else "background-color: #ffc7ce"
+    color = "background-color: #c6efce" if row["Complete_80_percent_tasks"] else "background-color: #ffc7ce"
     return [color] * len(row)
 
 
@@ -62,7 +64,11 @@ def main() -> None:
         .sort_values("practice_qty", ascending=False)
     )
 
-    goal_html = goal_summary.style.apply(highlight_goal, axis=1).format({"attainment_%": "{:.1f}%"}).to_html()
+    goal_html = (
+        goal_summary.style.apply(highlight_goal, axis=1)
+        .format({"attainment_%": "{:.1f}%"})
+        .to_html()
+    )
     generated_at = pd.Timestamp.now().strftime("%Y-%m-%d %H:%M")
 
     html = f"""<!DOCTYPE html>
