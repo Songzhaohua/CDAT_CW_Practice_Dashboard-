@@ -24,7 +24,16 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
         for source, target in aliases.items()
         if source in df.columns and target not in df.columns
     }
-    return df.rename(columns=rename)
+    normalized = df.rename(columns=rename)
+    if (
+        "Complete_80_percent_tasks" not in normalized.columns
+        and "monthly practice goal" in normalized.columns
+        and "practice_lot_qty" in normalized.columns
+    ):
+        normalized["Complete_80_percent_tasks"] = (
+            normalized["practice_lot_qty"] >= (normalized["monthly practice goal"] * 0.8)
+        )
+    return normalized
 
 
 @st.cache_data(ttl=600)
