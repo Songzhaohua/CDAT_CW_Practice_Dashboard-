@@ -22,10 +22,7 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
         for source, target in aliases.items()
         if source in df.columns and target not in df.columns
     }
-    normalized = df.rename(columns=rename)
-    if "user_type" not in normalized.columns:
-        normalized.insert(len(normalized.columns), "user_type", "")
-    return normalized
+    return df.rename(columns=rename)
 
 
 @st.cache_data(ttl=600)
