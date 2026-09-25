@@ -223,7 +223,13 @@ with tab_goal:
             st.caption("Click a value in the Practiced_qty column to see its lot details below.")
             event = st.dataframe(
                 display_summary.style.apply(highlight_goal, axis=1)
-                .format({"Attainment_%": "{:.1f}%"}),
+                .format(
+                    {
+                        "Practiced_qty": "{:,.0f}",
+                        "Attainment_%": "{:.1f}%",
+                        "Gap_to_goal": "{:,.0f}",
+                    }
+                ),
                 use_container_width=True,
                 height=500,
                 on_select="rerun",
