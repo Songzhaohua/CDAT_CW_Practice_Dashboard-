@@ -1,733 +1,733 @@
-month,module,operation,name,wwid,team,super,practice_lot_qty,practice_shift_qty,monthly_practice_goal,Complete_80_percent_tasks
-202608,OLB,7571,"Wu, YongtingX",12364792,3,"Yang, Yang",0,0,10,Y
-202608,OLB,6379,"Wu, YongtingX",12364792,3,"Yang, Yang",0,0,10,Y
-202608,TTT,7226,"Liu, ChenlongX",12361834,5,"Yang, Yang",0,0,10,
-202608,TACS23,2174,"Ma, ChongX",11684839,2,"Sun, Cuibing",0,0,12,
-202608,TACS23,2172,"Ma, ChongX",11684839,2,"Sun, Cuibing",0,0,12,
-202608,TACS23,2174,"Sun, HongtaoX",11879026,3,"Deng, Qiang",0,0,12,
-202608,STHI,6970,"Yin, ChaoX",11883020,1,"Hu, Jiayu",0,0,10,
-202608,TACS23,2174,"Ling, YingX",11883610,4,"Yuan, Kaiqiang",0,0,12,
-202608,EOL MARK,7906,"Huang, LiX",11898885,7,"Li, Yao",0,0,10,
-202608,TACS23,2174,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",0,0,12,Y
-202608,TACS1,2170,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",0,0,10,
-202608,TACS1,2173,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",0,0,10,
-202608,V8,6881,,,5,"Yang, Yang",0,0,6,
-202608,TACS1,2170,"He, Qiaoling",12046979,3,"Deng, Qiang",0,0,10,
-202608,TACS1,2173,"He, Qiaoling",12046979,3,"Deng, Qiang",0,0,10,
-202608,OLB,7571,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0,0,10,
-202608,OLB,6379,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0,0,10,
-202608,TACS23,2174,"Lu, KaiwenX",12112997,5,"Deng, Qiang",0,0,12,
-202608,TPX,1501,"Li, XueruiX",12136980,2,"Sun, Cuibing",0,0,10,
-202608,TPX,4992,"Li, XueruiX",12136980,2,"Sun, Cuibing",0,0,10,
-202608,EOL MARK,7906,"Zou, ZhiguoX",12361855,5,"Yang, Yang",0,0,10,
-202608,TPX,5651,"Yu, Yang1X",12361987,3,"Deng, Qiang",0,0,10,
-202608,TPX,5653,"Yu, Yang1X",12361987,3,"Deng, Qiang",0,0,10,
-202608,TPX,1501,"Yu, Yang1X",12361987,3,"Deng, Qiang",0,0,10,
-202608,TPX,4992,"Yu, Yang1X",12361987,3,"Deng, Qiang",0,0,10,
-202608,TACS23,2172,"Peng, YuX",12361838,5,"Deng, Qiang",0,0,12,
-202608,TACS23,2174,"Peng, YuX",12361838,5,"Deng, Qiang",0,0,12,
-202608,TPX,5651,"He, LinshuangX",12361859,3,"Deng, Qiang",0,0,10,
-202608,TPX,5653,"He, LinshuangX",12361859,3,"Deng, Qiang",0,0,10,
-202608,TPX,1501,"He, LinshuangX",12361859,3,"Deng, Qiang",0,0,10,
-202608,TPX,4992,"He, LinshuangX",12361859,3,"Deng, Qiang",0,0,10,
-202608,FAST,2177,"Wu, PingX",12364790,1,"Kang, Zhuang",0,0,12,Y
-202608,FAST,2177,"Tian, ShuyuX",12364791,6,"Sun, Cuibing",0,0,12,
-202608,HDMX,7820,"Leng, MengyaoX",12364789,7,"Hu, Jiayu",0,0,6,
-202608,V8,6881,"Wang, SitingX",12364783,1,"Li, Yao",0,0,6,
-202608,DVI,1007,"Zhao, YuanchaoX",12350935,4,"Wei, Luyi",0,0,10,
-202608,DVI,1007,,,5,"Yang, Yang",0,0,10,
-202608,DVI,1007,"Liu, JinhaoX",12364756,2,"Deng, Chengyi",0,0,10,
-202608,DVI,1007,"Huang, QingxiuX",12364778,4,"Wei, Luyi",0,0,10,
-202608,STHI,6970,"Zhang, Yingxia",12336402,3,"Liu, Junming",0,0,10,
-202608,TACS23,2172,"Zhang, Wei2X",12364956,1,"Kang, Zhuang",0,0,12,Y
-202608,TACS23,2174,"Zhang, Wei2X",12364956,1,"Kang, Zhuang",0,0,12,Y
-202608,NXR,0265,"Wang, YanbinX",11777409,7,"Kang, Zhuang",195,18,4,
-202608,NXR,0265,"Li, ChunhangX",11959097,5,"Deng, Qiang",131,14,4,
-202608,NXR,0265,"Liu, ShilinX",12028347,6,"Sun, Cuibing",184,16,4,
-202608,NXR,0265,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",181,16,4,
-202608,NXR,0265,"Chen, Ming1X",12121764,1,"Kang, Zhuang",221,12,4,
-202608,FOL MARK,0614,"Pu, LiqiongX",11919444,7,"Li, Yao",187,17,6,
-202608,FOL MARK,0614,"Bai, KunlingX",11953965,1,"Li, Yao",178,18,6,
-202608,FOL MARK,0614,"Xiang, XianlongX",12121721,3,"Yang, Yang",136,12,6,
-202608,FOL MARK,0614,"Zhang, Le1X",12217881,2,"Deng, Chengyi",235,19,6,
-202608,FOL MARK,0614,"Peng, HuiX",12303553,5,"Yang, Yang",185,20,6,
-202608,DVI,1007,"Jing, HualanX",12022214,6,"Deng, Chengyi",373,16,10,
-202608,DVI,1007,"He, JunxingX",12223825,3,"Yang, Yang",462,23,10,
-202608,DVI,1007,"Ma, YicaiX",12330000,5,"Yang, Yang",303,12,10,
-202608,DVI,1007,"Tang, YuyangX",12336406,7,"Li, Yao",288,11,10,
-202608,DVI,1007,"Liao, YuX",12350931,4,"Wei, Luyi",36,2,10,
-202608,DVI,1007,"Li, JibinX",12354367,4,"Wei, Luyi",338,17,10,
-202608,DVI,1007,"Xu, JieX",12354574,2,"Deng, Chengyi",359,18,10,
-202608,DVI,1007,"Zheng, MaoshengX",12357078,6,"Deng, Chengyi",403,18,10,
-202608,DVI,1007,"Sun, Yang1X",12357082,3,"Yang, Yang",396,19,10,
-202608,DVI,1007,"Zou, YuxinX",12357091,1,"Li, Yao",354,16,10,
-202608,DVI,1007,"Liang, JieX",12361832,1,"Li, Yao",10,2,10,
-202608,CURE,1173,"Fu, RongX",11751502,4,"Yuan, Kaiqiang",260,21,10,
-202608,CURE,1173,"Zeng, XianchuanX",11758822,6,"Sun, Cuibing",167,15,10,
-202608,CURE,1173,"Zhou, JunX",11879024,4,"Yuan, Kaiqiang",40,4,10,
-202608,CURE,1173,"Wen, WanquanX",11941174,1,"Kang, Zhuang",164,18,10,
-202608,CURE,1173,"Huang, Qian1X",11968539,7,"Kang, Zhuang",118,15,10,
-202608,CURE,1173,"Xie, XiangangX",12022219,2,"Sun, Cuibing",166,18,10,
-202608,CURE,1173,"Li, YuhongX",12034336,6,"Sun, Cuibing",100,18,10,
-202608,CURE,1173,"Liu, ZhongxunX",12059196,5,"Deng, Qiang",196,16,10,
-202608,CURE,1173,"Zhao, HaifengX",12082819,4,"Yuan, Kaiqiang",8,3,10,
-202608,CURE,1173,"Zheng, XiangfengX",12139828,3,"Deng, Qiang",36,7,10,
-202608,CURE,1173,"Song, XiaoliX",12223829,2,"Sun, Cuibing",132,13,10,
-202608,CURE,1173,"Zhang, HaiX",12303552,1,"Kang, Zhuang",34,7,10,
-202608,CURE,1173,"Xu, Ping1X",12316331,5,"Deng, Qiang",52,11,10,
-202608,CURE,1173,"Wu, BingqiaoX",12322113,1,"Kang, Zhuang",2,1,10,
-202608,CURE,1173,"Zhou, KeX",12354557,7,"Kang, Zhuang",106,12,10,
-202608,CURE,1235,"Fu, RongX",11751502,4,"Yuan, Kaiqiang",132,19,10,
-202608,CURE,1235,"Zeng, XianchuanX",11758822,6,"Sun, Cuibing",141,14,10,
-202608,CURE,1235,"Zhou, JunX",11879024,4,"Yuan, Kaiqiang",26,4,10,
-202608,CURE,1235,"Wen, WanquanX",11941174,1,"Kang, Zhuang",126,19,10,
-202608,CURE,1235,"Huang, Qian1X",11968539,7,"Kang, Zhuang",122,16,10,
-202608,CURE,1235,"Xie, XiangangX",12022219,2,"Sun, Cuibing",173,24,10,
-202608,CURE,1235,"Li, YuhongX",12034336,6,"Sun, Cuibing",72,17,10,
-202608,CURE,1235,"Liu, ZhongxunX",12059196,5,"Deng, Qiang",101,14,10,
-202608,CURE,1235,"Zhao, HaifengX",12082819,4,"Yuan, Kaiqiang",6,2,10,
-202608,CURE,1235,"Zheng, XiangfengX",12139828,3,"Deng, Qiang",46,12,10,
-202608,CURE,1235,"Song, XiaoliX",12223829,2,"Sun, Cuibing",85,14,10,
-202608,CURE,1235,"Zhang, HaiX",12303552,1,"Kang, Zhuang",50,9,10,
-202608,CURE,1235,"Xu, Ping1X",12316331,5,"Deng, Qiang",138,17,10,
-202608,CURE,1235,"Wu, BingqiaoX",12322113,1,"Kang, Zhuang",18,5,10,
-202608,CURE,1235,"Zhou, KeX",12354557,7,"Kang, Zhuang",57,13,10,
-202608,CSAM,1237,"Wang, YanbinX",11777409,7,"Kang, Zhuang",75,18,4,
-202608,CSAM,1237,"Li, ChunhangX",11959097,5,"Deng, Qiang",51,14,4,
-202608,CSAM,1237,"Liu, ShilinX",12028347,6,"Sun, Cuibing",62,16,4,
-202608,CSAM,1237,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",60,16,4,
-202608,CSAM,1237,"Chen, Ming1X",12121764,1,"Kang, Zhuang",54,12,4,
-202608,TPX,1501,"Li, TaoX H",11889533,3,"Deng, Qiang",24,9,10,
-202608,TPX,1501,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",61,11,10,
-202608,TPX,1501,"Sun, TaoX A",11935177,1,"Kang, Zhuang",97,17,10,
-202608,TPX,1501,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",31,4,10,
-202608,TPX,1501,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",17,6,10,
-202608,TPX,1501,"Liu, Qian1X",12103745,5,"Deng, Qiang",98,12,10,
-202608,TPX,1501,"Yang, XueliX",12205377,7,"Kang, Zhuang",74,9,10,
-202608,TPX,1501,"Liao, YingX",12234936,5,"Deng, Qiang",59,10,10,
-202608,TPX,1501,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",120,16,10,
-202608,TPX,1501,"Chen, XinxinX",12326190,7,"Kang, Zhuang",73,11,10,
-202608,TPX,1501,"Wu, GuochengX",12344320,1,"Kang, Zhuang",90,8,10,
-202608,TPX,1501,"Hu, JunX",12344386,3,"Deng, Qiang",115,13,10,
-202608,TPX,1501,"He, JialongX",12354573,5,"Deng, Qiang",68,10,10,
-202608,TPX,1501,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",50,13,10,
-202608,TPX,1501,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",18,6,10,
-202608,TPX,1501,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",55,10,10,
-202608,PLASMA,2048,"Liu, XueqinX",12112992,7,"Kang, Zhuang",580,8,12,
-202608,PLASMA,2048,"Yang, YinchuanX",12330659,1,"Kang, Zhuang",9,2,12,
-202608,PLASMA,2048,"Xia, NingyuX",12330660,2,"Sun, Cuibing",1145,20,12,
-202608,PLASMA,2048,"Zhou, MinguoX",12330673,6,"Sun, Cuibing",511,11,12,
-202608,PLASMA,2048,"He, XueX",12343505,5,"Deng, Qiang",777,14,12,
-202608,CTT,2150,"Liu, HuayuX",11868437,4,"Yuan, Kaiqiang",445,12,12,
-202608,CTT,2150,"Zhong, GuihuaX",11941175,6,"Sun, Cuibing",802,18,12,
-202608,CTT,2150,"Pu, MinX",12076990,2,"Sun, Cuibing",671,14,12,
-202608,CTT,2150,"Yang, LeX",12212207,3,"Deng, Qiang",59,2,12,
-202608,CTT,2150,"Zheng, RenlongX",12269570,5,"Deng, Qiang",548,14,12,
-202608,CTT,2150,"Wang, Li1X",12336502,3,"Deng, Qiang",509,13,12,
-202608,TACS1,2170,"Kou, TingtingX",11737104,5,"Deng, Qiang",228,16,10,
-202608,TACS1,2170,"Ma, XiaominX",11894065,7,"Kang, Zhuang",253,18,10,
-202608,TACS1,2170,"Qi, DongmeiX",11973542,1,"Kang, Zhuang",143,14,10,
-202608,TACS1,2170,"Wan, YuX",12012321,6,"Sun, Cuibing",162,17,10,
-202608,TACS1,2170,"Meng, QianchengX",12026061,2,"Sun, Cuibing",337,23,10,
-202608,TACS23,2172,"Ou, XinlianX",11733201,2,"Sun, Cuibing",57,19,12,
-202608,TACS23,2172,"Hu, XiaomeiX",11758813,1,"Kang, Zhuang",68,17,12,
-202608,TACS23,2172,"Feng, JingX",11856501,4,"Yuan, Kaiqiang",61,16,12,
-202608,TACS23,2172,"Sun, HongtaoX",11879026,3,"Deng, Qiang",4,3,12,
-202608,TACS23,2172,"Ling, YingX",11883610,4,"Yuan, Kaiqiang",1,1,12,
-202608,TACS23,2172,"Chen, ShaoqiuX",11894002,4,"Yuan, Kaiqiang",94,18,12,
-202608,TACS23,2172,"Zhao, YanX I",11899924,1,"Kang, Zhuang",107,10,12,
-202608,TACS23,2172,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",1,1,12,Y
-202608,TACS23,2172,"He, TingX",11960150,3,"Deng, Qiang",49,10,12,
-202608,TACS23,2172,"He, LiangyuX",11961517,3,"Deng, Qiang",65,16,12,
-202608,TACS23,2172,"Tang, TianX",11992103,5,"Deng, Qiang",107,14,12,
-202608,TACS23,2172,"Xie, XiaoyuX",12015677,2,"Sun, Cuibing",189,19,12,
-202608,TACS23,2172,"Wu, YangX",12080979,3,"Deng, Qiang",44,8,12,
-202608,TACS23,2172,"Huang, JiaminX",12082443,2,"Sun, Cuibing",65,6,12,
-202608,TACS23,2172,"Lu, KaiwenX",12112997,5,"Deng, Qiang",5,2,12,
-202608,TACS23,2172,"Chen, FengzhongX",12136982,6,"Sun, Cuibing",57,6,12,
-202608,TACS23,2172,"Chen, DongmeiX",12230182,7,"Kang, Zhuang",38,5,12,
-202608,TACS23,2172,"Li, TianX",12305364,5,"Deng, Qiang",197,14,12,
-202608,TACS23,2172,"Li, LeiX",12322010,7,"Kang, Zhuang",230,12,12,
-202608,TACS23,2172,"Wen, YueX",12337316,6,"Sun, Cuibing",150,17,12,
-202608,TACS23,2172,"Hu, FuliX",12344308,6,"Sun, Cuibing",110,8,12,
-202608,TACS23,2172,"Gao, JuanX",12345266,7,"Kang, Zhuang",152,18,12,
-202608,TACS23,2172,"Feng, HuiwenX",12345273,2,"Sun, Cuibing",116,19,12,
-202608,TACS23,2172,"Chen, JianweiX",12347803,5,"Deng, Qiang",126,16,12,
-202608,TACS23,2172,"Peng, DaiqiongX",12347805,3,"Deng, Qiang",136,7,12,
-202608,TACS23,2172,"Liu, TaoX",12354372,3,"Deng, Qiang",142,15,12,
-202608,TACS23,2172,"Yu, LongX",12354556,2,"Sun, Cuibing",139,17,12,
-202608,TACS23,2172,"Huang, JialingX",12354570,7,"Kang, Zhuang",209,22,12,
-202608,TACS23,2172,"Li, JianqinX",12357211,1,"Kang, Zhuang",67,11,12,
-202608,TACS23,2172,"Luo, Chen1X",12358521,4,"Yuan, Kaiqiang",73,14,12,
-202608,TACS1,2173,"Kou, TingtingX",11737104,5,"Deng, Qiang",252,16,10,
-202608,TACS1,2173,"Ma, XiaominX",11894065,7,"Kang, Zhuang",279,18,10,
-202608,TACS1,2173,"Qi, DongmeiX",11973542,1,"Kang, Zhuang",162,15,10,
-202608,TACS1,2173,"Wan, YuX",12012321,6,"Sun, Cuibing",293,17,10,
-202608,TACS1,2173,"Meng, QianchengX",12026061,2,"Sun, Cuibing",296,25,10,
-202608,TACS23,2174,"Ou, XinlianX",11733201,2,"Sun, Cuibing",3,3,12,
-202608,TACS23,2174,"Hu, XiaomeiX",11758813,1,"Kang, Zhuang",3,2,12,
-202608,TACS23,2174,"Feng, JingX",11856501,4,"Yuan, Kaiqiang",4,3,12,
-202608,TACS23,2174,"Chen, ShaoqiuX",11894002,4,"Yuan, Kaiqiang",7,3,12,
-202608,TACS23,2174,"Zhao, YanX I",11899924,1,"Kang, Zhuang",2,2,12,
-202608,TACS23,2174,"He, TingX",11960150,3,"Deng, Qiang",2,2,12,
-202608,TACS23,2174,"He, LiangyuX",11961517,3,"Deng, Qiang",3,2,12,
-202608,TACS23,2174,"Tang, TianX",11992103,5,"Deng, Qiang",7,5,12,
-202608,TACS23,2174,"Xie, XiaoyuX",12015677,2,"Sun, Cuibing",3,3,12,
-202608,TACS23,2174,"Wu, YangX",12080979,3,"Deng, Qiang",28,12,12,
-202608,TACS23,2174,"Huang, JiaminX",12082443,2,"Sun, Cuibing",4,1,12,
-202608,TACS23,2174,"Chen, FengzhongX",12136982,6,"Sun, Cuibing",2,2,12,
-202608,TACS23,2174,"Chen, DongmeiX",12230182,7,"Kang, Zhuang",46,12,12,
-202608,TACS23,2174,"Li, TianX",12305364,5,"Deng, Qiang",15,6,12,
-202608,TACS23,2174,"Li, LeiX",12322010,7,"Kang, Zhuang",13,5,12,
-202608,TACS23,2174,"Wen, YueX",12337316,6,"Sun, Cuibing",3,3,12,
-202608,TACS23,2174,"Hu, FuliX",12344308,6,"Sun, Cuibing",24,8,12,
-202608,TACS23,2174,"Gao, JuanX",12345266,7,"Kang, Zhuang",5,3,12,
-202608,TACS23,2174,"Feng, HuiwenX",12345273,2,"Sun, Cuibing",14,6,12,
-202608,TACS23,2174,"Chen, JianweiX",12347803,5,"Deng, Qiang",3,2,12,
-202608,TACS23,2174,"Peng, DaiqiongX",12347805,3,"Deng, Qiang",7,2,12,
-202608,TACS23,2174,"Liu, TaoX",12354372,3,"Deng, Qiang",3,2,12,
-202608,TACS23,2174,"Yu, LongX",12354556,2,"Sun, Cuibing",1,1,12,
-202608,TACS23,2174,"Huang, JialingX",12354570,7,"Kang, Zhuang",3,2,12,
-202608,TACS23,2174,"Li, JianqinX",12357211,1,"Kang, Zhuang",8,5,12,
-202608,TACS23,2174,"Luo, Chen1X",12358521,4,"Yuan, Kaiqiang",6,4,12,
-202608,FAST,2177,"Wang, HeleiX",11958936,4,"Yuan, Kaiqiang",29,5,12,
-202608,FAST,2177,"Liu, XupengX",12108119,6,"Sun, Cuibing",143,13,12,
-202608,FAST,2177,"Chen, HongX",12113034,1,"Kang, Zhuang",138,17,12,
-202608,FAST,2177,"Wang, DekangX",12350921,3,"Deng, Qiang",32,8,12,
-202608,FAST,2177,"Cui, JingX",12350992,4,"Yuan, Kaiqiang",89,12,12,
-202608,FAST,2177,"Yang, HuanyuX",12358512,7,"Kang, Zhuang",114,16,12,
-202608,FAST,2177,"Wu, ShaodongX",12358519,4,"Yuan, Kaiqiang",97,14,12,
-202608,CSAM,2237,"Wang, YanbinX",11777409,7,"Kang, Zhuang",1,1,1,Y
-202608,CSAM,2237,"Li, ChunhangX",11959097,5,"Deng, Qiang",2,2,1,
-202608,CSAM,2237,"Liu, ShilinX",12028347,6,"Sun, Cuibing",3,2,1,
-202608,CSAM,2237,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",1,1,1,
-202608,CSAM,2237,"Chen, Ming1X",12121764,1,"Kang, Zhuang",4,4,1,
-202608,TPX,4992,"Li, TaoX H",11889533,3,"Deng, Qiang",17,8,10,
-202608,TPX,4992,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",51,11,10,
-202608,TPX,4992,"Sun, TaoX A",11935177,1,"Kang, Zhuang",83,15,10,
-202608,TPX,4992,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",22,4,10,
-202608,TPX,4992,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",15,7,10,
-202608,TPX,4992,"Liu, Qian1X",12103745,5,"Deng, Qiang",91,11,10,
-202608,TPX,4992,"Yang, XueliX",12205377,7,"Kang, Zhuang",83,9,10,
-202608,TPX,4992,"Liao, YingX",12234936,5,"Deng, Qiang",63,9,10,
-202608,TPX,4992,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",110,17,10,
-202608,TPX,4992,"Chen, XinxinX",12326190,7,"Kang, Zhuang",79,12,10,
-202608,TPX,4992,"Wu, GuochengX",12344320,1,"Kang, Zhuang",82,10,10,
-202608,TPX,4992,"Hu, JunX",12344386,3,"Deng, Qiang",118,14,10,
-202608,TPX,4992,"He, JialongX",12354573,5,"Deng, Qiang",78,12,10,
-202608,TPX,4992,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",47,10,10,
-202608,TPX,4992,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",12,5,10,
-202608,TPX,4992,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",68,9,10,
-202608,TPX,5651,"Li, TaoX H",11889533,3,"Deng, Qiang",165,13,10,
-202608,TPX,5651,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",257,18,10,
-202608,TPX,5651,"Sun, TaoX A",11935177,1,"Kang, Zhuang",293,18,10,
-202608,TPX,5651,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",54,6,10,
-202608,TPX,5651,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",79,12,10,
-202608,TPX,5651,"Liu, Qian1X",12103745,5,"Deng, Qiang",205,17,10,
-202608,TPX,5651,"Li, XueruiX",12136980,2,"Sun, Cuibing",1,1,10,
-202608,TPX,5651,"Yang, XueliX",12205377,7,"Kang, Zhuang",183,15,10,
-202608,TPX,5651,"Liao, YingX",12234936,5,"Deng, Qiang",248,20,10,
-202608,TPX,5651,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",218,20,10,
-202608,TPX,5651,"Chen, XinxinX",12326190,7,"Kang, Zhuang",226,16,10,
-202608,TPX,5651,"Wu, GuochengX",12344320,1,"Kang, Zhuang",193,20,10,
-202608,TPX,5651,"Hu, JunX",12344386,3,"Deng, Qiang",186,17,10,
-202608,TPX,5651,"He, JialongX",12354573,5,"Deng, Qiang",215,18,10,
-202608,TPX,5651,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",122,15,10,
-202608,TPX,5651,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",97,14,10,
-202608,TPX,5651,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",185,16,10,
-202608,TPX,5653,"Li, TaoX H",11889533,3,"Deng, Qiang",169,13,10,
-202608,TPX,5653,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",255,18,10,
-202608,TPX,5653,"Sun, TaoX A",11935177,1,"Kang, Zhuang",251,20,10,
-202608,TPX,5653,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",59,6,10,
-202608,TPX,5653,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",84,12,10,
-202608,TPX,5653,"Liu, Qian1X",12103745,5,"Deng, Qiang",209,17,10,
-202608,TPX,5653,"Li, XueruiX",12136980,2,"Sun, Cuibing",3,3,10,
-202608,TPX,5653,"Yang, XueliX",12205377,7,"Kang, Zhuang",177,15,10,
-202608,TPX,5653,"Liao, YingX",12234936,5,"Deng, Qiang",250,20,10,
-202608,TPX,5653,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",203,20,10,
-202608,TPX,5653,"Chen, XinxinX",12326190,7,"Kang, Zhuang",194,16,10,
-202608,TPX,5653,"Wu, GuochengX",12344320,1,"Kang, Zhuang",203,20,10,
-202608,TPX,5653,"Hu, JunX",12344386,3,"Deng, Qiang",167,17,10,
-202608,TPX,5653,"He, JialongX",12354573,5,"Deng, Qiang",230,18,10,
-202608,TPX,5653,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",122,15,10,
-202608,TPX,5653,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",77,12,10,
-202608,TPX,5653,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",190,16,10,
-202608,OLB,6379,"Wei, QiangX",11753097,5,"Yang, Yang",102,20,10,
-202608,OLB,6379,"Lan, XiaomengX",11770692,6,"Deng, Chengyi",38,10,10,
-202608,OLB,6379,"Lin, LingX",11855431,6,"Deng, Chengyi",38,10,10,
-202608,OLB,6379,"Yan, JingX",11862241,7,"Li, Yao",76,18,10,
-202608,OLB,6379,"Wu, HongyanX",11955635,1,"Li, Yao",24,7,10,
-202608,OLB,6379,"Li, HannaX",12136981,3,"Yang, Yang",32,10,10,
-202608,OLB,6379,"Zhao, RongrongX",12139784,4,"Wei, Luyi",30,7,10,
-202608,OLB,6379,"Huang, JianpingX",12326083,3,"Yang, Yang",82,18,10,
-202608,OLB,6379,"Ji, WanxingX",12328957,2,"Deng, Chengyi",66,15,10,
-202608,OLB,6379,"Chen, ZhongyouX",12343354,1,"Li, Yao",100,19,10,
-202608,OLB,6379,"Nie, QianX",12345265,5,"Yang, Yang",22,8,10,
-202608,OLB,6379,"Yang, ZhonghuaX",12354558,4,"Wei, Luyi",72,16,10,
-202608,OLB,6379,"Yao, XinyingX",12357292,1,"Li, Yao",36,12,10,
-202608,OLB,6379,"Wu, TongdaX",12358513,4,"Wei, Luyi",98,17,10,
-202608,OLB,6379,"Cao, JingmingX",12358525,6,"Deng, Chengyi",50,14,10,
-202608,V8,6881,"Zhang, LuX L",11742549,2,"Deng, Chengyi",27,10,6,
-202608,V8,6881,"Zhang, YingX N",11760409,6,"Deng, Chengyi",52,11,6,
-202608,V8,6881,"Jiang, JiaoX",11894050,3,"Yang, Yang",47,13,6,
-202608,V8,6881,"Ren, JunX H",11959095,7,"Li, Yao",43,14,6,
-202608,V8,6881,"Deng, ZhourongX",11960156,4,"Wei, Luyi",42,13,6,
-202608,V8,6881,"Tu, HuanX",12344075,5,"Yang, Yang",32,13,6,
-202608,STHI,6970,"Liu, CunyiX",11719817,3,"Liu, Junming",81,16,10,
-202608,STHI,6970,"Qi, LinglingX",11733861,1,"Hu, Jiayu",105,16,10,
-202608,STHI,6970,"Zhong, ZaimingX",11790469,7,"Hu, Jiayu",58,11,10,
-202608,STHI,6970,"Pu, XiaoliX",11900941,1,"Hu, Jiayu",142,20,10,
-202608,STHI,6970,"Guo, YingfangX",11919307,5,"Liu, Junming",132,21,10,
-202608,STHI,6970,"Wu, DongmeiX",11955631,3,"Liu, Junming",19,5,10,
-202608,STHI,6970,"Zheng, YanqiongX",11962665,6,"Hu, Jiang",19,8,10,
-202608,STHI,6970,"Geng, WentingX",12043684,2,"Hu, Jiang",87,18,10,
-202608,STHI,6970,"Wen, QiangX",12326084,3,"Liu, Junming",60,9,10,
-202608,STHI,6970,"Zhang, GaofengX",12326091,1,"Hu, Jiayu",108,20,10,
-202608,STHI,6970,"Fan, MingjieX",12336408,2,"Hu, Jiang",121,18,10,
-202608,STHI,6970,"Tang, LiX",12337321,4,"Yuan, Kaiqiang",77,15,10,
-202608,STHI,6970,"Dai, HangX",12344072,7,"Hu, Jiayu",47,12,10,
-202608,STHI,6970,"Li, ZhiyuanX",12345267,5,"Liu, Junming",12,4,10,
-202608,STHI,6970,"Li, AnzhiX",12345270,3,"Liu, Junming",47,8,10,
-202608,STHI,6970,"Wen, ChaoX",12347801,1,"Hu, Jiayu",149,22,10,
-202608,STHI,6970,"Zhu, XiX",12347889,6,"Hu, Jiang",107,19,10,
-202608,STHI,6970,"Zeng, JunlinX",12350926,2,"Hu, Jiang",135,24,10,
-202608,STHI,6970,"Zhou, TingtingX",12354368,4,"Yuan, Kaiqiang",57,9,10,
-202608,STHI,6970,"Huang, GongyuanX",12354575,7,"Hu, Jiayu",87,16,10,
-202608,STHI,6970,"Luo, MeixiuX",12354576,5,"Liu, Junming",121,18,10,
-202608,STHI,6970,"Wu, JianglinX",12354580,5,"Liu, Junming",73,15,10,
-202608,STHI,6970,"Li, LongerX",12357077,7,"Hu, Jiayu",81,13,10,
-202608,STHI,6970,"He, Guangqin1X",12357216,2,"Hu, Jiang",121,20,10,
-202608,STHI,6970,"He, XinyueX",12357296,3,"Liu, Junming",86,16,10,
-202608,TTT,7226,"Fu, DiX",11915245,7,"Li, Yao",342,16,10,
-202608,TTT,7226,"Gou, ZhiqiangX",11955624,5,"Yang, Yang",298,15,10,
-202608,TTT,7226,"Cheng, HuaX",12117225,6,"Deng, Chengyi",308,12,10,
-202608,TTT,7226,"Tang, WeiX",12230179,4,"Wei, Luyi",34,2,10,
-202608,TTT,7226,"Wu, WeiX",12234913,3,"Yang, Yang",577,23,10,
-202608,TTT,7226,"Chen, KeX",12316473,6,"Deng, Chengyi",343,17,10,
-202608,TTT,7226,"Wang, XinyuX",12329190,2,"Deng, Chengyi",350,18,10,
-202608,TTT,7226,"Chen, Xi1X",12330069,2,"Deng, Chengyi",248,10,10,
-202608,TTT,7226,"Jian, WubinX",12336422,1,"Li, Yao",368,18,10,
-202608,TTT,7226,"Feng, YuzeX",12350929,4,"Wei, Luyi",337,16,10,
-202608,TTT,7226,"Yang, WeiX",12357081,7,"Li, Yao",492,22,10,
-202608,TTT,7226,"Cai, XinchengX",12357212,4,"Wei, Luyi",350,18,10,
-202608,TTT,7226,"Wu, GuannanX",12361846,3,"Yang, Yang",14,2,10,
-202608,OLB,7571,"Wei, QiangX",11753097,5,"Yang, Yang",1107,21,10,
-202608,OLB,7571,"Lan, XiaomengX",11770692,6,"Deng, Chengyi",542,15,10,
-202608,OLB,7571,"Lin, LingX",11855431,6,"Deng, Chengyi",662,16,10,
-202608,OLB,7571,"Yan, JingX",11862241,7,"Li, Yao",898,20,10,
-202608,OLB,7571,"Wu, HongyanX",11955635,1,"Li, Yao",333,9,10,
-202608,OLB,7571,"Li, HannaX",12136981,3,"Yang, Yang",712,15,10,
-202608,OLB,7571,"Zhao, RongrongX",12139784,4,"Wei, Luyi",318,10,10,
-202608,OLB,7571,"Huang, JianpingX",12326083,3,"Yang, Yang",958,22,10,
-202608,OLB,7571,"Ji, WanxingX",12328957,2,"Deng, Chengyi",675,18,10,
-202608,OLB,7571,"Chen, ZhongyouX",12343354,1,"Li, Yao",1002,22,10,
-202608,OLB,7571,"Nie, QianX",12345265,5,"Yang, Yang",500,11,10,
-202608,OLB,7571,"Yang, ZhonghuaX",12354558,4,"Wei, Luyi",747,17,10,
-202608,OLB,7571,"Yao, XinyingX",12357292,1,"Li, Yao",675,16,10,
-202608,OLB,7571,"Wu, TongdaX",12358513,4,"Wei, Luyi",999,20,10,
-202608,OLB,7571,"Cao, JingmingX",12358525,6,"Deng, Chengyi",617,17,10,
-202608,HDMX,7820,"Ye, KunboX",11709812,4,"Yuan, Kaiqiang",128,16,6,
-202608,HDMX,7820,"Wang, QianX N",11762365,5,"Liu, Junming",132,13,6,
-202608,HDMX,7820,"Liu, QingqingX",11822293,6,"Hu, Jiang",194,24,6,
-202608,HDMX,7820,"Liu, LeiX",11907120,7,"Hu, Jiayu",157,23,6,
-202608,HDMX,7820,"Dai, LinyanX",11919306,7,"Hu, Jiayu",135,20,6,
-202608,HDMX,7820,"Ren, XiaoqiongX",11935176,6,"Hu, Jiang",146,24,6,
-202608,HDMX,7820,"He, YanX",11959107,5,"Liu, Junming",132,17,6,
-202608,HDMX,7820,"Xie, JunyuX",11960148,4,"Yuan, Kaiqiang",48,9,6,
-202608,HDMX,7820,"Luo, YalanX",11968712,6,"Hu, Jiang",159,23,6,
-202608,HDMX,7820,"Wu, QiangX",12028341,1,"Hu, Jiayu",150,24,6,
-202608,HDMX,7820,"Liu, QiongX",12137017,5,"Liu, Junming",90,16,6,
-202608,HDMX,7820,"Liu, Yi2X",12234911,3,"Liu, Junming",158,22,6,
-202608,HDMX,7820,"Fu, FangjianX",12337336,4,"Yuan, Kaiqiang",108,16,6,
-202608,HDMX,7820,"Xu, HaishengX",12343501,6,"Hu, Jiang",87,16,6,
-202608,HDMX,7820,"Tang, HongqiangX",12343506,2,"Hu, Jiang",107,16,6,
-202608,HDMX,7820,"Zhang, XiongX",12345262,6,"Hu, Jiang",84,13,6,
-202608,HDMX,7820,"Xiang, MengX",12347797,7,"Hu, Jiayu",108,16,6,
-202608,HDMX,7820,"Ma, TaoX",12350920,6,"Hu, Jiang",122,19,6,
-202608,HDMX,7820,"Luo, ZhenghongX",12350922,5,"Liu, Junming",155,19,6,
-202608,HDMX,7820,"Zhang, YongfeiX",12350924,2,"Hu, Jiang",73,13,6,
-202608,HDMX,7820,"Liao, LiX",12354441,4,"Yuan, Kaiqiang",123,18,6,
-202608,HDMX,7820,"Xie, TingjunX",12357209,1,"Hu, Jiayu",127,20,6,
-202608,HDMX,7820,"Wang, YilongX",12361843,2,"Hu, Jiang",10,4,6,
-202608,HDMX,7820,"Xin, MengyanX",12361849,3,"Liu, Junming",12,4,6,
-202608,HDMX,7820,"Hu, AnchaoX",12361861,3,"Liu, Junming",11,3,6,
-202608,EOL MARK,7906,"Shu, PengX",11895384,1,"Li, Yao",133,21,10,
-202608,EOL MARK,7906,"Liu, WeiX K",11899925,2,"Deng, Chengyi",69,9,10,
-202608,EOL MARK,7906,"Wang, JinxuanX",11915558,6,"Deng, Chengyi",83,11,10,
-202608,EOL MARK,7906,"Ye, ChunmeiX",11992100,4,"Wei, Luyi",160,20,10,
-202608,EOL MARK,7906,"Zhang, Liang1X",12028603,3,"Yang, Yang",160,18,10,
-202608,EOL MARK,7906,"Li, JianyouX",12105964,7,"Li, Yao",59,7,10,
-202608,EOL MARK,7906,"Cheng, GuoX",12112991,4,"Wei, Luyi",15,2,10,
-202608,EOL MARK,7906,"Chen, ZhangjunX",12114734,7,"Li, Yao",123,17,10,
-202608,EOL MARK,7906,"Yao, MingX",12234917,5,"Yang, Yang",149,16,10,
-202608,EOL MARK,7906,"Tian, LingX",12331515,6,"Deng, Chengyi",106,11,10,
-202608,EOL MARK,7906,"Zhang, ZhuohangX",12358507,1,"Li, Yao",112,16,10,
-202608,EOL MARK,7906,"Shao, TianchengX",12361839,2,"Deng, Chengyi",6,2,10,
-202608,EOL MARK,7906,"Chen, NandongX",12361871,6,"Deng, Chengyi",21,3,10,
-202608,EOL MARK,7906,"Li, QishuaiX",12361873,6,"Deng, Chengyi",4,1,10,
-202609,TACS23,2174,"Ma, ChongX",11684839,2,"Sun, Cuibing",0,0,12,
-202609,TACS23,2172,"Ma, ChongX",11684839,2,"Sun, Cuibing",0,0,12,
-202609,TACS23,2174,"Sun, HongtaoX",11879026,3,"Deng, Qiang",0,0,12,
-202609,STHI,6970,"Yin, ChaoX",11883020,1,"Hu, Jiayu",0,0,10,
-202609,TACS23,2174,"Ling, YingX",11883610,4,"Yuan, Kaiqiang",0,0,12,
-202609,EOL MARK,7906,"Huang, LiX",11898885,7,"Li, Yao",0,0,10,
-202609,TACS23,2174,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",0,0,12,Y
-202609,TACS23,2174,"He, LiangyuX",11961517,3,"Deng, Qiang",0,0,12,
-202609,V8,6881,,,5,"Yang, Yang",0,0,6,
-202609,TACS1,2170,"He, Qiaoling",12046979,3,"Deng, Qiang",0,0,10,
-202609,TACS1,2173,"He, Qiaoling",12046979,3,"Deng, Qiang",0,0,10,
-202609,OLB,7571,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0,0,10,
-202609,OLB,6379,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0,0,10,
-202609,TPX,5651,"Li, XueruiX",12136980,2,"Sun, Cuibing",0,0,10,
-202609,TPX,1501,"Li, XueruiX",12136980,2,"Sun, Cuibing",0,0,10,
-202609,TPX,4992,"Li, XueruiX",12136980,2,"Sun, Cuibing",0,0,10,
-202609,TACS23,2174,"Chen, FengzhongX",12136982,6,"Sun, Cuibing",0,0,12,
-202609,DVI,1007,"Zhao, YuanchaoX",12350935,4,"Wei, Luyi",0,0,10,
-202609,DVI,1007,,,5,"Yang, Yang",0,0,10,
-202609,STHI,6970,"Zhang, Yingxia",12336402,3,"Liu, Junming",0,0,10,
-202609,NXR,0265,"Wang, YanbinX",11777409,7,"Kang, Zhuang",244,20,4,
-202609,NXR,0265,"Li, ChunhangX",11959097,5,"Deng, Qiang",264,19,4,
-202609,NXR,0265,"Liu, ShilinX",12028347,6,"Sun, Cuibing",271,18,4,
-202609,NXR,0265,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",272,19,4,
-202609,NXR,0265,"Chen, Ming1X",12121764,1,"Kang, Zhuang",312,18,4,
-202609,FOL MARK,0614,"Pu, LiqiongX",11919444,7,"Li, Yao",205,18,6,
-202609,FOL MARK,0614,"Bai, KunlingX",11953965,1,"Li, Yao",209,18,6,
-202609,FOL MARK,0614,"Xiang, XianlongX",12121721,3,"Yang, Yang",185,16,6,
-202609,FOL MARK,0614,"Zhang, Le1X",12217881,2,"Deng, Chengyi",296,22,6,
-202609,FOL MARK,0614,"Peng, HuiX",12303553,5,"Yang, Yang",236,19,6,
-202609,DVI,1007,"Jing, HualanX",12022214,6,"Deng, Chengyi",415,19,10,
-202609,DVI,1007,"He, JunxingX",12223825,3,"Yang, Yang",557,28,10,
-202609,DVI,1007,"Ma, YicaiX",12330000,5,"Yang, Yang",485,21,10,
-202609,DVI,1007,"Tang, YuyangX",12336406,7,"Li, Yao",547,27,10,
-202609,DVI,1007,"Liao, YuX",12350931,4,"Wei, Luyi",21,1,10,
-202609,DVI,1007,"Li, JibinX",12354367,4,"Wei, Luyi",374,18,10,
-202609,DVI,1007,"Xu, JieX",12354574,2,"Deng, Chengyi",463,20,10,
-202609,DVI,1007,"Zheng, MaoshengX",12357078,6,"Deng, Chengyi",422,20,10,
-202609,DVI,1007,"Sun, Yang1X",12357082,3,"Yang, Yang",539,25,10,
-202609,DVI,1007,"Zou, YuxinX",12357091,1,"Li, Yao",343,19,10,
-202609,DVI,1007,"Liang, JieX",12361832,1,"Li, Yao",619,29,10,
-202609,DVI,1007,"Liu, JinhaoX",12364756,2,"Deng, Chengyi",134,10,10,
-202609,DVI,1007,"Huang, QingxiuX",12364778,4,"Wei, Luyi",68,9,10,
-202609,CURE,1173,"Fu, RongX",11751502,4,"Yuan, Kaiqiang",266,23,10,
-202609,CURE,1173,"Zeng, XianchuanX",11758822,6,"Sun, Cuibing",158,13,10,
-202609,CURE,1173,"Zhou, JunX",11879024,4,"Yuan, Kaiqiang",28,3,10,
-202609,CURE,1173,"Wen, WanquanX",11941174,1,"Kang, Zhuang",149,20,10,
-202609,CURE,1173,"Huang, Qian1X",11968539,7,"Kang, Zhuang",238,20,10,
-202609,CURE,1173,"Xie, XiangangX",12022219,2,"Sun, Cuibing",132,22,10,
-202609,CURE,1173,"Li, YuhongX",12034336,6,"Sun, Cuibing",82,16,10,
-202609,CURE,1173,"Liu, ZhongxunX",12059196,5,"Deng, Qiang",262,24,10,
-202609,CURE,1173,"Zhao, HaifengX",12082819,4,"Yuan, Kaiqiang",4,2,10,
-202609,CURE,1173,"Zheng, XiangfengX",12139828,3,"Deng, Qiang",66,12,10,
-202609,CURE,1173,"Song, XiaoliX",12223829,2,"Sun, Cuibing",104,14,10,
-202609,CURE,1173,"Zhang, HaiX",12303552,1,"Kang, Zhuang",72,12,10,
-202609,CURE,1173,"Xu, Ping1X",12316331,5,"Deng, Qiang",66,8,10,
-202609,CURE,1173,"Wu, BingqiaoX",12322113,1,"Kang, Zhuang",36,9,10,
-202609,CURE,1173,"Zhou, KeX",12354557,7,"Kang, Zhuang",58,11,10,
-202609,CURE,1235,"Fu, RongX",11751502,4,"Yuan, Kaiqiang",121,21,10,
-202609,CURE,1235,"Zeng, XianchuanX",11758822,6,"Sun, Cuibing",121,14,10,
-202609,CURE,1235,"Zhou, JunX",11879024,4,"Yuan, Kaiqiang",12,3,10,
-202609,CURE,1235,"Wen, WanquanX",11941174,1,"Kang, Zhuang",171,19,10,
-202609,CURE,1235,"Huang, Qian1X",11968539,7,"Kang, Zhuang",130,16,10,
-202609,CURE,1235,"Xie, XiangangX",12022219,2,"Sun, Cuibing",201,22,10,
-202609,CURE,1235,"Li, YuhongX",12034336,6,"Sun, Cuibing",85,18,10,
-202609,CURE,1235,"Liu, ZhongxunX",12059196,5,"Deng, Qiang",231,25,10,
-202609,CURE,1235,"Zhao, HaifengX",12082819,4,"Yuan, Kaiqiang",4,2,10,
-202609,CURE,1235,"Zheng, XiangfengX",12139828,3,"Deng, Qiang",39,10,10,
-202609,CURE,1235,"Song, XiaoliX",12223829,2,"Sun, Cuibing",29,6,10,
-202609,CURE,1235,"Zhang, HaiX",12303552,1,"Kang, Zhuang",106,15,10,
-202609,CURE,1235,"Xu, Ping1X",12316331,5,"Deng, Qiang",101,18,10,
-202609,CURE,1235,"Wu, BingqiaoX",12322113,1,"Kang, Zhuang",10,4,10,Y
-202609,CURE,1235,"Zhou, KeX",12354557,7,"Kang, Zhuang",69,14,10,
-202609,CSAM,1237,"Wang, YanbinX",11777409,7,"Kang, Zhuang",76,20,4,
-202609,CSAM,1237,"Li, ChunhangX",11959097,5,"Deng, Qiang",92,19,4,
-202609,CSAM,1237,"Liu, ShilinX",12028347,6,"Sun, Cuibing",99,18,4,
-202609,CSAM,1237,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",67,18,4,
-202609,CSAM,1237,"Chen, Ming1X",12121764,1,"Kang, Zhuang",81,17,4,
-202609,TPX,1501,"Li, TaoX H",11889533,3,"Deng, Qiang",39,7,10,
-202609,TPX,1501,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",85,12,10,
-202609,TPX,1501,"Sun, TaoX A",11935177,1,"Kang, Zhuang",86,19,10,
-202609,TPX,1501,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",38,6,10,
-202609,TPX,1501,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",76,13,10,
-202609,TPX,1501,"Liu, Qian1X",12103745,5,"Deng, Qiang",91,13,10,
-202609,TPX,1501,"Yang, XueliX",12205377,7,"Kang, Zhuang",62,11,10,{}
-202609,TPX,1501,"Liao, YingX",12234936,5,"Deng, Qiang",114,18,10,
-202609,TPX,1501,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",90,15,10,
-202609,TPX,1501,"Chen, XinxinX",12326190,7,"Kang, Zhuang",118,17,10,
-202609,TPX,1501,"Wu, GuochengX",12344320,1,"Kang, Zhuang",86,11,10,
-202609,TPX,1501,"Hu, JunX",12344386,3,"Deng, Qiang",71,10,10,
-202609,TPX,1501,"He, JialongX",12354573,5,"Deng, Qiang",106,14,10,
-202609,TPX,1501,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",91,14,10,
-202609,TPX,1501,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",51,14,10,
-202609,TPX,1501,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",169,14,10,
-202609,TPX,1501,"He, LinshuangX",12361859,3,"Deng, Qiang",68,16,10,
-202609,TPX,1501,"Yu, Yang1X",12361987,3,"Deng, Qiang",82,17,10,
-202609,PLASMA,2048,"Liu, XueqinX",12112992,7,"Kang, Zhuang",492,11,12,
-202609,PLASMA,2048,"Yang, YinchuanX",12330659,1,"Kang, Zhuang",14,1,12,
-202609,PLASMA,2048,"Xia, NingyuX",12330660,2,"Sun, Cuibing",1036,18,12,
-202609,PLASMA,2048,"Zhou, MinguoX",12330673,6,"Sun, Cuibing",777,15,12,
-202609,PLASMA,2048,"He, XueX",12343505,5,"Deng, Qiang",1492,26,12,
-202609,CTT,2150,"Liu, HuayuX",11868437,4,"Yuan, Kaiqiang",889,20,12,
-202609,CTT,2150,"Zhong, GuihuaX",11941175,6,"Sun, Cuibing",955,23,12,
-202609,CTT,2150,"Pu, MinX",12076990,2,"Sun, Cuibing",671,15,12,
-202609,CTT,2150,"Yang, LeX",12212207,3,"Deng, Qiang",73,2,12,
-202609,CTT,2150,"Zheng, RenlongX",12269570,5,"Deng, Qiang",653,15,12,
-202609,CTT,2150,"Wang, Li1X",12336502,3,"Deng, Qiang",819,19,12,
-202609,TACS1,2170,"Kou, TingtingX",11737104,5,"Deng, Qiang",285,20,10,
-202609,TACS1,2170,"Ma, XiaominX",11894065,7,"Kang, Zhuang",290,21,10,
-202609,TACS1,2170,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",17,3,10,
-202609,TACS1,2170,"Qi, DongmeiX",11973542,1,"Kang, Zhuang",223,21,10,
-202609,TACS1,2170,"Wan, YuX",12012321,6,"Sun, Cuibing",295,19,10,
-202609,TACS1,2170,"Meng, QianchengX",12026061,2,"Sun, Cuibing",373,22,10,
-202609,TACS23,2172,"Ou, XinlianX",11733201,2,"Sun, Cuibing",96,19,12,
-202609,TACS23,2172,"Hu, XiaomeiX",11758813,1,"Kang, Zhuang",163,22,12,
-202609,TACS23,2172,"Feng, JingX",11856501,4,"Yuan, Kaiqiang",80,20,12,
-202609,TACS23,2172,"Sun, HongtaoX",11879026,3,"Deng, Qiang",23,5,12,
-202609,TACS23,2172,"Ling, YingX",11883610,4,"Yuan, Kaiqiang",6,3,12,
-202609,TACS23,2172,"Chen, ShaoqiuX",11894002,4,"Yuan, Kaiqiang",126,21,12,
-202609,TACS23,2172,"Zhao, YanX I",11899924,1,"Kang, Zhuang",52,13,12,
-202609,TACS23,2172,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",4,4,12,
-202609,TACS23,2172,"He, TingX",11960150,3,"Deng, Qiang",60,14,12,
-202609,TACS23,2172,"He, LiangyuX",11961517,3,"Deng, Qiang",104,18,12,
-202609,TACS23,2172,"Tang, TianX",11992103,5,"Deng, Qiang",121,15,12,
-202609,TACS23,2172,"Xie, XiaoyuX",12015677,2,"Sun, Cuibing",137,18,12,
-202609,TACS23,2172,"Wu, YangX",12080979,3,"Deng, Qiang",117,15,12,
-202609,TACS23,2172,"Huang, JiaminX",12082443,2,"Sun, Cuibing",141,10,12,
-202609,TACS23,2172,"Lu, KaiwenX",12112997,5,"Deng, Qiang",32,5,12,
-202609,TACS23,2172,"Chen, FengzhongX",12136982,6,"Sun, Cuibing",82,6,12,
-202609,TACS23,2172,"Chen, DongmeiX",12230182,7,"Kang, Zhuang",130,12,12,
-202609,TACS23,2172,"Li, TianX",12305364,5,"Deng, Qiang",185,18,12,
-202609,TACS23,2172,"Li, LeiX",12322010,7,"Kang, Zhuang",259,16,12,
-202609,TACS23,2172,"Wen, YueX",12337316,6,"Sun, Cuibing",192,22,12,
-202609,TACS23,2172,"Hu, FuliX",12344308,6,"Sun, Cuibing",321,24,12,
-202609,TACS23,2172,"Gao, JuanX",12345266,7,"Kang, Zhuang",158,20,12,
-202609,TACS23,2172,"Feng, HuiwenX",12345273,2,"Sun, Cuibing",166,22,12,
-202609,TACS23,2172,"Chen, JianweiX",12347803,5,"Deng, Qiang",166,19,12,
-202609,TACS23,2172,"Peng, DaiqiongX",12347805,3,"Deng, Qiang",229,14,12,
-202609,TACS23,2172,"Liu, TaoX",12354372,3,"Deng, Qiang",194,20,12,
-202609,TACS23,2172,"Yu, LongX",12354556,2,"Sun, Cuibing",149,17,12,
-202609,TACS23,2172,"Huang, JialingX",12354570,7,"Kang, Zhuang",253,27,12,
-202609,TACS23,2172,"Li, JianqinX",12357211,1,"Kang, Zhuang",170,18,12,
-202609,TACS23,2172,"Luo, Chen1X",12358521,4,"Yuan, Kaiqiang",181,20,12,
-202609,TACS23,2172,"Peng, YuX",12361838,5,"Deng, Qiang",236,22,12,
-202609,TACS23,2172,"Zhang, Wei2X",12364956,1,"Kang, Zhuang",5,1,12,
-202609,TACS1,2173,"Kou, TingtingX",11737104,5,"Deng, Qiang",286,20,10,
-202609,TACS1,2173,"Ma, XiaominX",11894065,7,"Kang, Zhuang",254,21,10,
-202609,TACS1,2173,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",12,1,10,
-202609,TACS1,2173,"Qi, DongmeiX",11973542,1,"Kang, Zhuang",153,15,10,
-202609,TACS1,2173,"Wan, YuX",12012321,6,"Sun, Cuibing",243,17,10,
-202609,TACS1,2173,"Meng, QianchengX",12026061,2,"Sun, Cuibing",256,22,10,
-202609,TACS23,2174,"Ou, XinlianX",11733201,2,"Sun, Cuibing",1,1,12,
-202609,TACS23,2174,"Hu, XiaomeiX",11758813,1,"Kang, Zhuang",8,6,12,
-202609,TACS23,2174,"Feng, JingX",11856501,4,"Yuan, Kaiqiang",7,6,12,
-202609,TACS23,2174,"Chen, ShaoqiuX",11894002,4,"Yuan, Kaiqiang",3,2,12,
-202609,TACS23,2174,"Zhao, YanX I",11899924,1,"Kang, Zhuang",5,2,12,
-202609,TACS23,2174,"He, TingX",11960150,3,"Deng, Qiang",4,4,12,
-202609,TACS23,2174,"Tang, TianX",11992103,5,"Deng, Qiang",3,3,12,
-202609,TACS23,2174,"Xie, XiaoyuX",12015677,2,"Sun, Cuibing",11,4,12,
-202609,TACS23,2174,"Wu, YangX",12080979,3,"Deng, Qiang",20,6,12,
-202609,TACS23,2174,"Huang, JiaminX",12082443,2,"Sun, Cuibing",8,3,12,
-202609,TACS23,2174,"Lu, KaiwenX",12112997,5,"Deng, Qiang",3,3,12,
-202609,TACS23,2174,"Chen, DongmeiX",12230182,7,"Kang, Zhuang",22,10,12,
-202609,TACS23,2174,"Li, TianX",12305364,5,"Deng, Qiang",33,13,12,
-202609,TACS23,2174,"Li, LeiX",12322010,7,"Kang, Zhuang",26,10,12,
-202609,TACS23,2174,"Wen, YueX",12337316,6,"Sun, Cuibing",4,3,12,
-202609,TACS23,2174,"Hu, FuliX",12344308,6,"Sun, Cuibing",19,10,12,
-202609,TACS23,2174,"Gao, JuanX",12345266,7,"Kang, Zhuang",2,2,12,
-202609,TACS23,2174,"Feng, HuiwenX",12345273,2,"Sun, Cuibing",1,1,12,
-202609,TACS23,2174,"Chen, JianweiX",12347803,5,"Deng, Qiang",4,3,12,
-202609,TACS23,2174,"Peng, DaiqiongX",12347805,3,"Deng, Qiang",20,5,12,
-202609,TACS23,2174,"Liu, TaoX",12354372,3,"Deng, Qiang",2,2,12,
-202609,TACS23,2174,"Yu, LongX",12354556,2,"Sun, Cuibing",8,4,12,
-202609,TACS23,2174,"Huang, JialingX",12354570,7,"Kang, Zhuang",1,1,12,Y
-202609,TACS23,2174,"Li, JianqinX",12357211,1,"Kang, Zhuang",14,6,12,
-202609,TACS23,2174,"Luo, Chen1X",12358521,4,"Yuan, Kaiqiang",5,4,12,
-202609,TACS23,2174,"Peng, YuX",12361838,5,"Deng, Qiang",6,5,12,
-202609,TACS23,2174,"Zhang, Wei2X",12364956,1,"Kang, Zhuang",1,1,12,Y
-202609,FAST,2177,"Wang, HeleiX",11958936,4,"Yuan, Kaiqiang",16,6,12,
-202609,FAST,2177,"Liu, XupengX",12108119,6,"Sun, Cuibing",93,12,12,
-202609,FAST,2177,"Chen, HongX",12113034,1,"Kang, Zhuang",127,19,12,
-202609,FAST,2177,"Wang, DekangX",12350921,3,"Deng, Qiang",69,7,12,
-202609,FAST,2177,"Cui, JingX",12350992,4,"Yuan, Kaiqiang",48,8,12,
-202609,FAST,2177,"Yang, HuanyuX",12358512,7,"Kang, Zhuang",165,17,12,
-202609,FAST,2177,"Wu, ShaodongX",12358519,4,"Yuan, Kaiqiang",148,17,12,
-202609,FAST,2177,"Wu, PingX",12364790,1,"Kang, Zhuang",63,10,12,
-202609,FAST,2177,"Tian, ShuyuX",12364791,6,"Sun, Cuibing",63,11,12,
-202609,CSAM,2237,"Wang, YanbinX",11777409,7,"Kang, Zhuang",2,2,1,
-202609,CSAM,2237,"Li, ChunhangX",11959097,5,"Deng, Qiang",3,3,1,
-202609,CSAM,2237,"Liu, ShilinX",12028347,6,"Sun, Cuibing",3,3,1,
-202609,CSAM,2237,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",1,1,1,
-202609,CSAM,2237,"Chen, Ming1X",12121764,1,"Kang, Zhuang",1,1,1,
-202609,TPX,4992,"Li, TaoX H",11889533,3,"Deng, Qiang",39,7,10,
-202609,TPX,4992,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",86,12,10,
-202609,TPX,4992,"Sun, TaoX A",11935177,1,"Kang, Zhuang",91,17,10,
-202609,TPX,4992,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",37,5,10,
-202609,TPX,4992,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",80,12,10,
-202609,TPX,4992,"Liu, Qian1X",12103745,5,"Deng, Qiang",80,12,10,
-202609,TPX,4992,"Yang, XueliX",12205377,7,"Kang, Zhuang",67,10,10,
-202609,TPX,4992,"Liao, YingX",12234936,5,"Deng, Qiang",108,17,10,
-202609,TPX,4992,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",89,14,10,
-202609,TPX,4992,"Chen, XinxinX",12326190,7,"Kang, Zhuang",113,16,10,
-202609,TPX,4992,"Wu, GuochengX",12344320,1,"Kang, Zhuang",98,10,10,
-202609,TPX,4992,"Hu, JunX",12344386,3,"Deng, Qiang",66,10,10,
-202609,TPX,4992,"He, JialongX",12354573,5,"Deng, Qiang",108,14,10,
-202609,TPX,4992,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",95,13,10,
-202609,TPX,4992,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",61,13,10,
-202609,TPX,4992,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",177,13,10,
-202609,TPX,4992,"He, LinshuangX",12361859,3,"Deng, Qiang",68,18,10,
-202609,TPX,4992,"Yu, Yang1X",12361987,3,"Deng, Qiang",98,17,10,
-202609,TPX,5651,"Li, TaoX H",11889533,3,"Deng, Qiang",79,7,10,
-202609,TPX,5651,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",181,15,10,
-202609,TPX,5651,"Sun, TaoX A",11935177,1,"Kang, Zhuang",347,24,10,
-202609,TPX,5651,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",103,11,10,
-202609,TPX,5651,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",99,15,10,
-202609,TPX,5651,"Liu, Qian1X",12103745,5,"Deng, Qiang",262,21,10,
-202609,TPX,5651,"Yang, XueliX",12205377,7,"Kang, Zhuang",177,16,10,
-202609,TPX,5651,"Liao, YingX",12234936,5,"Deng, Qiang",291,25,10,
-202609,TPX,5651,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",302,25,10,
-202609,TPX,5651,"Chen, XinxinX",12326190,7,"Kang, Zhuang",283,23,10,
-202609,TPX,5651,"Wu, GuochengX",12344320,1,"Kang, Zhuang",224,23,10,
-202609,TPX,5651,"Hu, JunX",12344386,3,"Deng, Qiang",101,13,10,
-202609,TPX,5651,"He, JialongX",12354573,5,"Deng, Qiang",252,21,10,
-202609,TPX,5651,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",176,18,10,
-202609,TPX,5651,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",274,25,10,
-202609,TPX,5651,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",314,21,10,
-202609,TPX,5651,"He, LinshuangX",12361859,3,"Deng, Qiang",253,22,10,
-202609,TPX,5651,"Yu, Yang1X",12361987,3,"Deng, Qiang",353,26,10,
-202609,TPX,5653,"Li, TaoX H",11889533,3,"Deng, Qiang",66,8,10,
-202609,TPX,5653,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",170,15,10,
-202609,TPX,5653,"Sun, TaoX A",11935177,1,"Kang, Zhuang",340,21,10,
-202609,TPX,5653,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",116,12,10,
-202609,TPX,5653,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",121,15,10,
-202609,TPX,5653,"Liu, Qian1X",12103745,5,"Deng, Qiang",273,21,10,
-202609,TPX,5653,"Li, XueruiX",12136980,2,"Sun, Cuibing",1,1,10,
-202609,TPX,5653,"Yang, XueliX",12205377,7,"Kang, Zhuang",191,16,10,
-202609,TPX,5653,"Liao, YingX",12234936,5,"Deng, Qiang",267,25,10,
-202609,TPX,5653,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",295,25,10,
-202609,TPX,5653,"Chen, XinxinX",12326190,7,"Kang, Zhuang",313,23,10,
-202609,TPX,5653,"Wu, GuochengX",12344320,1,"Kang, Zhuang",248,22,10,
-202609,TPX,5653,"Hu, JunX",12344386,3,"Deng, Qiang",103,15,10,
-202609,TPX,5653,"He, JialongX",12354573,5,"Deng, Qiang",266,21,10,
-202609,TPX,5653,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",187,18,10,
-202609,TPX,5653,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",280,25,10,
-202609,TPX,5653,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",303,21,10,
-202609,TPX,5653,"He, LinshuangX",12361859,3,"Deng, Qiang",244,21,10,
-202609,TPX,5653,"Yu, Yang1X",12361987,3,"Deng, Qiang",323,26,10,
-202609,OLB,6379,"Wei, QiangX",11753097,5,"Yang, Yang",90,20,10,
-202609,OLB,6379,"Lan, XiaomengX",11770692,6,"Deng, Chengyi",30,9,10,
-202609,OLB,6379,"Lin, LingX",11855431,6,"Deng, Chengyi",72,17,10,
-202609,OLB,6379,"Yan, JingX",11862241,7,"Li, Yao",74,17,10,
-202609,OLB,6379,"Wu, HongyanX",11955635,1,"Li, Yao",32,8,10,
-202609,OLB,6379,"Li, HannaX",12136981,3,"Yang, Yang",72,15,10,
-202609,OLB,6379,"Zhao, RongrongX",12139784,4,"Wei, Luyi",16,6,10,
-202609,OLB,6379,"Huang, JianpingX",12326083,3,"Yang, Yang",60,18,10,
-202609,OLB,6379,"Ji, WanxingX",12328957,2,"Deng, Chengyi",40,12,10,
-202609,OLB,6379,"Chen, ZhongyouX",12343354,1,"Li, Yao",62,16,10,
-202609,OLB,6379,"Nie, QianX",12345265,5,"Yang, Yang",74,19,10,
-202609,OLB,6379,"Yang, ZhonghuaX",12354558,4,"Wei, Luyi",56,15,10,
-202609,OLB,6379,"Yao, XinyingX",12357292,1,"Li, Yao",42,13,10,
-202609,OLB,6379,"Wu, TongdaX",12358513,4,"Wei, Luyi",88,16,10,
-202609,OLB,6379,"Cao, JingmingX",12358525,6,"Deng, Chengyi",62,15,10,
-202609,OLB,6379,"Wu, YongtingX",12364792,3,"Yang, Yang",8,3,10,
-202609,V8,6881,"Zhang, LuX L",11742549,2,"Deng, Chengyi",72,21,6,
-202609,V8,6881,"Zhang, YingX N",11760409,6,"Deng, Chengyi",64,19,6,
-202609,V8,6881,"Jiang, JiaoX",11894050,3,"Yang, Yang",78,23,6,
-202609,V8,6881,"Ren, JunX H",11959095,7,"Li, Yao",67,18,6,
-202609,V8,6881,"Deng, ZhourongX",11960156,4,"Wei, Luyi",61,18,6,
-202609,V8,6881,"Tu, HuanX",12344075,5,"Yang, Yang",64,17,6,
-202609,V8,6881,"Wang, SitingX",12364783,1,"Li, Yao",28,8,6,
-202609,STHI,6970,"Liu, CunyiX",11719817,3,"Liu, Junming",85,12,10,
-202609,STHI,6970,"Qi, LinglingX",11733861,1,"Hu, Jiayu",128,21,10,
-202609,STHI,6970,"Zhong, ZaimingX",11790469,7,"Hu, Jiayu",118,19,10,
-202609,STHI,6970,"Pu, XiaoliX",11900941,1,"Hu, Jiayu",107,22,10,
-202609,STHI,6970,"Guo, YingfangX",11919307,5,"Liu, Junming",149,26,10,
-202609,STHI,6970,"Wu, DongmeiX",11955631,3,"Liu, Junming",28,10,10,
-202609,STHI,6970,"Zheng, YanqiongX",11962665,6,"Hu, Jiang",9,5,10,
-202609,STHI,6970,"Geng, WentingX",12043684,2,"Hu, Jiang",175,26,10,
-202609,STHI,6970,"Wen, QiangX",12326084,3,"Liu, Junming",161,24,10,
-202609,STHI,6970,"Zhang, GaofengX",12326091,1,"Hu, Jiayu",171,21,10,
-202609,STHI,6970,"Fan, MingjieX",12336408,2,"Hu, Jiang",118,19,10,
-202609,STHI,6970,"Tang, LiX",12337321,4,"Yuan, Kaiqiang",70,12,10,
-202609,STHI,6970,"Dai, HangX",12344072,7,"Hu, Jiayu",24,5,10,
-202609,STHI,6970,"Li, ZhiyuanX",12345267,5,"Liu, Junming",69,11,10,
-202609,STHI,6970,"Li, AnzhiX",12345270,3,"Liu, Junming",59,10,10,
-202609,STHI,6970,"Wen, ChaoX",12347801,1,"Hu, Jiayu",158,23,10,
-202609,STHI,6970,"Zhu, XiX",12347889,6,"Hu, Jiang",123,25,10,
-202609,STHI,6970,"Zeng, JunlinX",12350926,2,"Hu, Jiang",191,27,10,
-202609,STHI,6970,"Zhou, TingtingX",12354368,4,"Yuan, Kaiqiang",98,15,10,
-202609,STHI,6970,"Huang, GongyuanX",12354575,7,"Hu, Jiayu",166,20,10,
-202609,STHI,6970,"Luo, MeixiuX",12354576,5,"Liu, Junming",113,17,10,
-202609,STHI,6970,"Wu, JianglinX",12354580,5,"Liu, Junming",115,19,10,
-202609,STHI,6970,"Li, LongerX",12357077,7,"Hu, Jiayu",108,18,10,
-202609,STHI,6970,"He, Guangqin1X",12357216,2,"Hu, Jiang",164,22,10,
-202609,STHI,6970,"He, XinyueX",12357296,3,"Liu, Junming",168,22,10,
-202609,TTT,7226,"Fu, DiX",11915245,7,"Li, Yao",419,23,10,
-202609,TTT,7226,"Gou, ZhiqiangX",11955624,5,"Yang, Yang",400,19,10,
-202609,TTT,7226,"Cheng, HuaX",12117225,6,"Deng, Chengyi",487,19,10,
-202609,TTT,7226,"Tang, WeiX",12230179,4,"Wei, Luyi",2,1,10,
-202609,TTT,7226,"Wu, WeiX",12234913,3,"Yang, Yang",587,25,10,
-202609,TTT,7226,"Chen, KeX",12316473,6,"Deng, Chengyi",441,19,10,
-202609,TTT,7226,"Wang, XinyuX",12329190,2,"Deng, Chengyi",507,22,10,
-202609,TTT,7226,"Chen, Xi1X",12330069,2,"Deng, Chengyi",50,2,10,
-202609,TTT,7226,"Jian, WubinX",12336422,1,"Li, Yao",550,26,10,
-202609,TTT,7226,"Feng, YuzeX",12350929,4,"Wei, Luyi",491,20,10,
-202609,TTT,7226,"Yang, WeiX",12357081,7,"Li, Yao",469,20,10,
-202609,TTT,7226,"Cai, XinchengX",12357212,4,"Wei, Luyi",378,22,10,
-202609,TTT,7226,"Liu, ChenlongX",12361834,5,"Yang, Yang",118,7,10,
-202609,TTT,7226,"Wu, GuannanX",12361846,3,"Yang, Yang",500,27,10,
-202609,OLB,7571,"Wei, QiangX",11753097,5,"Yang, Yang",1410,22,10,
-202609,OLB,7571,"Lan, XiaomengX",11770692,6,"Deng, Chengyi",757,15,10,
-202609,OLB,7571,"Lin, LingX",11855431,6,"Deng, Chengyi",1069,24,10,
-202609,OLB,7571,"Yan, JingX",11862241,7,"Li, Yao",1168,26,10,
-202609,OLB,7571,"Wu, HongyanX",11955635,1,"Li, Yao",637,13,10,
-202609,OLB,7571,"Li, HannaX",12136981,3,"Yang, Yang",877,19,10,
-202609,OLB,7571,"Zhao, RongrongX",12139784,4,"Wei, Luyi",565,12,10,
-202609,OLB,7571,"Huang, JianpingX",12326083,3,"Yang, Yang",1292,27,10,
-202609,OLB,7571,"Ji, WanxingX",12328957,2,"Deng, Chengyi",1025,20,10,
-202609,OLB,7571,"Chen, ZhongyouX",12343354,1,"Li, Yao",1358,26,10,
-202609,OLB,7571,"Nie, QianX",12345265,5,"Yang, Yang",1264,26,10,
-202609,OLB,7571,"Yang, ZhonghuaX",12354558,4,"Wei, Luyi",1209,23,10,
-202609,OLB,7571,"Yao, XinyingX",12357292,1,"Li, Yao",1012,21,10,
-202609,OLB,7571,"Wu, TongdaX",12358513,4,"Wei, Luyi",1195,22,10,
-202609,OLB,7571,"Cao, JingmingX",12358525,6,"Deng, Chengyi",819,18,10,
-202609,OLB,7571,"Wu, YongtingX",12364792,3,"Yang, Yang",201,7,10,
-202609,HDMX,7820,"Ye, KunboX",11709812,4,"Yuan, Kaiqiang",73,13,6,
-202609,HDMX,7820,"Wang, QianX N",11762365,5,"Liu, Junming",136,17,6,
-202609,HDMX,7820,"Liu, QingqingX",11822293,6,"Hu, Jiang",156,25,6,
-202609,HDMX,7820,"Liu, LeiX",11907120,7,"Hu, Jiayu",191,24,6,
-202609,HDMX,7820,"Dai, LinyanX",11919306,7,"Hu, Jiayu",130,21,6,
-202609,HDMX,7820,"Ren, XiaoqiongX",11935176,6,"Hu, Jiang",187,28,6,
-202609,HDMX,7820,"He, YanX",11959107,5,"Liu, Junming",143,22,6,
-202609,HDMX,7820,"Xie, JunyuX",11960148,4,"Yuan, Kaiqiang",72,12,6,
-202609,HDMX,7820,"Luo, YalanX",11968712,6,"Hu, Jiang",228,28,6,
-202609,HDMX,7820,"Wu, QiangX",12028341,1,"Hu, Jiayu",203,25,6,
-202609,HDMX,7820,"Liu, QiongX",12137017,5,"Liu, Junming",199,25,6,
-202609,HDMX,7820,"Liu, Yi2X",12234911,3,"Liu, Junming",213,25,6,
-202609,HDMX,7820,"Fu, FangjianX",12337336,4,"Yuan, Kaiqiang",133,19,6,
-202609,HDMX,7820,"Xu, HaishengX",12343501,6,"Hu, Jiang",181,25,6,
-202609,HDMX,7820,"Tang, HongqiangX",12343506,2,"Hu, Jiang",88,13,6,
-202609,HDMX,7820,"Zhang, XiongX",12345262,6,"Hu, Jiang",100,18,6,
-202609,HDMX,7820,"Xiang, MengX",12347797,7,"Hu, Jiayu",160,20,6,
-202609,HDMX,7820,"Ma, TaoX",12350920,6,"Hu, Jiang",220,29,6,
-202609,HDMX,7820,"Luo, ZhenghongX",12350922,5,"Liu, Junming",151,18,6,
-202609,HDMX,7820,"Zhang, YongfeiX",12350924,2,"Hu, Jiang",104,15,6,
-202609,HDMX,7820,"Liao, LiX",12354441,4,"Yuan, Kaiqiang",45,6,6,
-202609,HDMX,7820,"Xie, TingjunX",12357209,1,"Hu, Jiayu",158,23,6,
-202609,HDMX,7820,"Wang, YilongX",12361843,2,"Hu, Jiang",136,22,6,
-202609,HDMX,7820,"Xin, MengyanX",12361849,3,"Liu, Junming",199,28,6,
-202609,HDMX,7820,"Hu, AnchaoX",12361861,3,"Liu, Junming",158,25,6,
-202609,HDMX,7820,"Leng, MengyaoX",12364789,7,"Hu, Jiayu",65,13,6,
-202609,EOL MARK,7906,"Shu, PengX",11895384,1,"Li, Yao",237,30,10,
-202609,EOL MARK,7906,"Liu, WeiX K",11899925,2,"Deng, Chengyi",34,6,10,
-202609,EOL MARK,7906,"Wang, JinxuanX",11915558,6,"Deng, Chengyi",38,6,10,
-202609,EOL MARK,7906,"Ye, ChunmeiX",11992100,4,"Wei, Luyi",139,19,10,
-202609,EOL MARK,7906,"Zhang, Liang1X",12028603,3,"Yang, Yang",152,21,10,
-202609,EOL MARK,7906,"Li, JianyouX",12105964,7,"Li, Yao",121,15,10,
-202609,EOL MARK,7906,"Cheng, GuoX",12112991,4,"Wei, Luyi",23,3,10,
-202609,EOL MARK,7906,"Chen, ZhangjunX",12114734,7,"Li, Yao",145,19,10,
-202609,EOL MARK,7906,"Yao, MingX",12234917,5,"Yang, Yang",129,19,10,
-202609,EOL MARK,7906,"Tian, LingX",12331515,6,"Deng, Chengyi",106,16,10,
-202609,EOL MARK,7906,"Zhang, ZhuohangX",12358507,1,"Li, Yao",117,16,10,
-202609,EOL MARK,7906,"Shao, TianchengX",12361839,2,"Deng, Chengyi",155,23,10,
-202609,EOL MARK,7906,"Zou, ZhiguoX",12361855,5,"Yang, Yang",148,21,10,
-202609,EOL MARK,7906,"Chen, NandongX",12361871,6,"Deng, Chengyi",80,13,10,
-202609,EOL MARK,7906,"Li, QishuaiX",12361873,6,"Deng, Chengyi",229,23,10,
+month,module,operation,name,wwid,team,super,practice_lot_qty,monthly_practice_goal,complete_80_percent_tasks
+202608,OLB,7571,"Wu, YongtingX",12364792,3,"Yang, Yang",0.0,10,Y
+202608,OLB,6379,"Wu, YongtingX",12364792,3,"Yang, Yang",0.0,10,Y
+202608,TTT,7226,"Liu, ChenlongX",12361834,5,"Yang, Yang",0.0,10,
+202608,TACS23,2174,"Ma, ChongX",11684839,2,"Sun, Cuibing",0.0,12,
+202608,TACS23,2172,"Ma, ChongX",11684839,2,"Sun, Cuibing",0.0,12,
+202608,TACS23,2174,"Sun, HongtaoX",11879026,3,"Deng, Qiang",0.0,12,
+202608,STHI,6970,"Yin, ChaoX",11883020,1,"Hu, Jiayu",0.0,10,
+202608,TACS23,2174,"Ling, YingX",11883610,4,"Yuan, Kaiqiang",0.0,12,
+202608,EOL MARK,7906,"Huang, LiX",11898885,7,"Li, Yao",0.0,10,
+202608,TACS23,2174,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",0.0,12,Y
+202608,TACS1,2170,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",0.0,10,
+202608,TACS1,2173,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",0.0,10,
+202608,V8,6881,,,5,"Yang, Yang",0.0,6,
+202608,TACS1,2170,"He, Qiaoling",12046979,3,"Deng, Qiang",0.0,10,
+202608,TACS1,2173,"He, Qiaoling",12046979,3,"Deng, Qiang",0.0,10,
+202608,OLB,7571,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0.0,10,
+202608,OLB,6379,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0.0,10,
+202608,TACS23,2174,"Lu, KaiwenX",12112997,5,"Deng, Qiang",0.0,12,
+202608,TPX,1501,"Li, XueruiX",12136980,2,"Sun, Cuibing",0.0,10,
+202608,TPX,4992,"Li, XueruiX",12136980,2,"Sun, Cuibing",0.0,10,
+202608,EOL MARK,7906,"Zou, ZhiguoX",12361855,5,"Yang, Yang",0.0,10,
+202608,TPX,5651,"Yu, Yang1X",12361987,3,"Deng, Qiang",0.0,10,
+202608,TPX,5653,"Yu, Yang1X",12361987,3,"Deng, Qiang",0.0,10,
+202608,TPX,1501,"Yu, Yang1X",12361987,3,"Deng, Qiang",0.0,10,
+202608,TPX,4992,"Yu, Yang1X",12361987,3,"Deng, Qiang",0.0,10,
+202608,TACS23,2172,"Peng, YuX",12361838,5,"Deng, Qiang",0.0,12,
+202608,TACS23,2174,"Peng, YuX",12361838,5,"Deng, Qiang",0.0,12,
+202608,TPX,5651,"He, LinshuangX",12361859,3,"Deng, Qiang",0.0,10,
+202608,TPX,5653,"He, LinshuangX",12361859,3,"Deng, Qiang",0.0,10,
+202608,TPX,1501,"He, LinshuangX",12361859,3,"Deng, Qiang",0.0,10,
+202608,TPX,4992,"He, LinshuangX",12361859,3,"Deng, Qiang",0.0,10,
+202608,FAST,2177,"Wu, PingX",12364790,1,"Kang, Zhuang",0.0,12,Y
+202608,FAST,2177,"Tian, ShuyuX",12364791,6,"Sun, Cuibing",0.0,12,
+202608,HDMX,7820,"Leng, MengyaoX",12364789,7,"Hu, Jiayu",0.0,6,
+202608,V8,6881,"Wang, SitingX",12364783,1,"Li, Yao",0.0,6,
+202608,DVI,1007,"Zhao, YuanchaoX",12350935,4,"Wei, Luyi",0.0,10,
+202608,DVI,1007,,,5,"Yang, Yang",0.0,10,
+202608,DVI,1007,"Liu, JinhaoX",12364756,2,"Deng, Chengyi",0.0,10,
+202608,DVI,1007,"Huang, QingxiuX",12364778,4,"Wei, Luyi",0.0,10,
+202608,STHI,6970,"Zhang, Yingxia",12336402,3,"Liu, Junming",0.0,10,
+202608,TACS23,2172,"Zhang, Wei2X",12364956,1,"Kang, Zhuang",0.0,12,Y
+202608,TACS23,2174,"Zhang, Wei2X",12364956,1,"Kang, Zhuang",0.0,12,Y
+202608,NXR,0265,"Wang, YanbinX",11777409,7,"Kang, Zhuang",195.0,4,Y
+202608,NXR,0265,"Li, ChunhangX",11959097,5,"Deng, Qiang",131.0,4,Y
+202608,NXR,0265,"Liu, ShilinX",12028347,6,"Sun, Cuibing",184.0,4,Y
+202608,NXR,0265,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",181.0,4,Y
+202608,NXR,0265,"Chen, Ming1X",12121764,1,"Kang, Zhuang",221.0,4,Y
+202608,FOL MARK,0614,"Pu, LiqiongX",11919444,7,"Li, Yao",187.0,6,Y
+202608,FOL MARK,0614,"Bai, KunlingX",11953965,1,"Li, Yao",178.0,6,Y
+202608,FOL MARK,0614,"Xiang, XianlongX",12121721,3,"Yang, Yang",136.0,6,Y
+202608,FOL MARK,0614,"Zhang, Le1X",12217881,2,"Deng, Chengyi",235.0,6,Y
+202608,FOL MARK,0614,"Peng, HuiX",12303553,5,"Yang, Yang",185.0,6,Y
+202608,DVI,1007,"Jing, HualanX",12022214,6,"Deng, Chengyi",373.0,10,Y
+202608,DVI,1007,"He, JunxingX",12223825,3,"Yang, Yang",462.0,10,Y
+202608,DVI,1007,"Ma, YicaiX",12330000,5,"Yang, Yang",303.0,10,Y
+202608,DVI,1007,"Tang, YuyangX",12336406,7,"Li, Yao",288.0,10,Y
+202608,DVI,1007,"Liao, YuX",12350931,4,"Wei, Luyi",36.0,10,Y
+202608,DVI,1007,"Li, JibinX",12354367,4,"Wei, Luyi",338.0,10,Y
+202608,DVI,1007,"Xu, JieX",12354574,2,"Deng, Chengyi",359.0,10,Y
+202608,DVI,1007,"Zheng, MaoshengX",12357078,6,"Deng, Chengyi",403.0,10,Y
+202608,DVI,1007,"Sun, Yang1X",12357082,3,"Yang, Yang",396.0,10,Y
+202608,DVI,1007,"Zou, YuxinX",12357091,1,"Li, Yao",354.0,10,Y
+202608,DVI,1007,"Liang, JieX",12361832,1,"Li, Yao",10.0,10,Y
+202608,CURE,1173,"Fu, RongX",11751502,4,"Yuan, Kaiqiang",260.0,10,Y
+202608,CURE,1173,"Zeng, XianchuanX",11758822,6,"Sun, Cuibing",167.0,10,Y
+202608,CURE,1173,"Zhou, JunX",11879024,4,"Yuan, Kaiqiang",40.0,10,Y
+202608,CURE,1173,"Wen, WanquanX",11941174,1,"Kang, Zhuang",164.0,10,Y
+202608,CURE,1173,"Huang, Qian1X",11968539,7,"Kang, Zhuang",118.0,10,Y
+202608,CURE,1173,"Xie, XiangangX",12022219,2,"Sun, Cuibing",166.0,10,Y
+202608,CURE,1173,"Li, YuhongX",12034336,6,"Sun, Cuibing",100.0,10,Y
+202608,CURE,1173,"Liu, ZhongxunX",12059196,5,"Deng, Qiang",196.0,10,Y
+202608,CURE,1173,"Zhao, HaifengX",12082819,4,"Yuan, Kaiqiang",8.0,10,
+202608,CURE,1173,"Zheng, XiangfengX",12139828,3,"Deng, Qiang",36.0,10,Y
+202608,CURE,1173,"Song, XiaoliX",12223829,2,"Sun, Cuibing",132.0,10,Y
+202608,CURE,1173,"Zhang, HaiX",12303552,1,"Kang, Zhuang",34.0,10,Y
+202608,CURE,1173,"Xu, Ping1X",12316331,5,"Deng, Qiang",52.0,10,Y
+202608,CURE,1173,"Wu, BingqiaoX",12322113,1,"Kang, Zhuang",2.0,10,Y
+202608,CURE,1173,"Zhou, KeX",12354557,7,"Kang, Zhuang",106.0,10,Y
+202608,CURE,1235,"Fu, RongX",11751502,4,"Yuan, Kaiqiang",132.0,10,Y
+202608,CURE,1235,"Zeng, XianchuanX",11758822,6,"Sun, Cuibing",141.0,10,Y
+202608,CURE,1235,"Zhou, JunX",11879024,4,"Yuan, Kaiqiang",26.0,10,Y
+202608,CURE,1235,"Wen, WanquanX",11941174,1,"Kang, Zhuang",126.0,10,Y
+202608,CURE,1235,"Huang, Qian1X",11968539,7,"Kang, Zhuang",122.0,10,Y
+202608,CURE,1235,"Xie, XiangangX",12022219,2,"Sun, Cuibing",173.0,10,Y
+202608,CURE,1235,"Li, YuhongX",12034336,6,"Sun, Cuibing",72.0,10,Y
+202608,CURE,1235,"Liu, ZhongxunX",12059196,5,"Deng, Qiang",101.0,10,Y
+202608,CURE,1235,"Zhao, HaifengX",12082819,4,"Yuan, Kaiqiang",6.0,10,
+202608,CURE,1235,"Zheng, XiangfengX",12139828,3,"Deng, Qiang",46.0,10,Y
+202608,CURE,1235,"Song, XiaoliX",12223829,2,"Sun, Cuibing",85.0,10,Y
+202608,CURE,1235,"Zhang, HaiX",12303552,1,"Kang, Zhuang",50.0,10,Y
+202608,CURE,1235,"Xu, Ping1X",12316331,5,"Deng, Qiang",138.0,10,Y
+202608,CURE,1235,"Wu, BingqiaoX",12322113,1,"Kang, Zhuang",18.0,10,Y
+202608,CURE,1235,"Zhou, KeX",12354557,7,"Kang, Zhuang",57.0,10,Y
+202608,CSAM,1237,"Wang, YanbinX",11777409,7,"Kang, Zhuang",75.0,4,Y
+202608,CSAM,1237,"Li, ChunhangX",11959097,5,"Deng, Qiang",51.0,4,Y
+202608,CSAM,1237,"Liu, ShilinX",12028347,6,"Sun, Cuibing",62.0,4,Y
+202608,CSAM,1237,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",60.0,4,Y
+202608,CSAM,1237,"Chen, Ming1X",12121764,1,"Kang, Zhuang",54.0,4,Y
+202608,TPX,1501,"Li, TaoX H",11889533,3,"Deng, Qiang",24.0,10,Y
+202608,TPX,1501,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",61.0,10,Y
+202608,TPX,1501,"Sun, TaoX A",11935177,1,"Kang, Zhuang",97.0,10,Y
+202608,TPX,1501,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",31.0,10,Y
+202608,TPX,1501,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",17.0,10,Y
+202608,TPX,1501,"Liu, Qian1X",12103745,5,"Deng, Qiang",98.0,10,Y
+202608,TPX,1501,"Yang, XueliX",12205377,7,"Kang, Zhuang",74.0,10,Y
+202608,TPX,1501,"Liao, YingX",12234936,5,"Deng, Qiang",59.0,10,Y
+202608,TPX,1501,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",120.0,10,Y
+202608,TPX,1501,"Chen, XinxinX",12326190,7,"Kang, Zhuang",73.0,10,Y
+202608,TPX,1501,"Wu, GuochengX",12344320,1,"Kang, Zhuang",90.0,10,Y
+202608,TPX,1501,"Hu, JunX",12344386,3,"Deng, Qiang",115.0,10,Y
+202608,TPX,1501,"He, JialongX",12354573,5,"Deng, Qiang",68.0,10,Y
+202608,TPX,1501,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",50.0,10,Y
+202608,TPX,1501,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",18.0,10,Y
+202608,TPX,1501,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",55.0,10,Y
+202608,PLASMA,2048,"Liu, XueqinX",12112992,7,"Kang, Zhuang",580.0,12,Y
+202608,PLASMA,2048,"Yang, YinchuanX",12330659,1,"Kang, Zhuang",9.0,12,
+202608,PLASMA,2048,"Xia, NingyuX",12330660,2,"Sun, Cuibing",1145.0,12,Y
+202608,PLASMA,2048,"Zhou, MinguoX",12330673,6,"Sun, Cuibing",511.0,12,Y
+202608,PLASMA,2048,"He, XueX",12343505,5,"Deng, Qiang",777.0,12,Y
+202608,CTT,2150,"Liu, HuayuX",11868437,4,"Yuan, Kaiqiang",445.0,12,Y
+202608,CTT,2150,"Zhong, GuihuaX",11941175,6,"Sun, Cuibing",802.0,12,Y
+202608,CTT,2150,"Pu, MinX",12076990,2,"Sun, Cuibing",671.0,12,Y
+202608,CTT,2150,"Yang, LeX",12212207,3,"Deng, Qiang",59.0,12,Y
+202608,CTT,2150,"Zheng, RenlongX",12269570,5,"Deng, Qiang",548.0,12,Y
+202608,CTT,2150,"Wang, Li1X",12336502,3,"Deng, Qiang",509.0,12,Y
+202608,TACS1,2170,"Kou, TingtingX",11737104,5,"Deng, Qiang",228.0,10,Y
+202608,TACS1,2170,"Ma, XiaominX",11894065,7,"Kang, Zhuang",253.0,10,Y
+202608,TACS1,2170,"Qi, DongmeiX",11973542,1,"Kang, Zhuang",143.0,10,Y
+202608,TACS1,2170,"Wan, YuX",12012321,6,"Sun, Cuibing",162.0,10,Y
+202608,TACS1,2170,"Meng, QianchengX",12026061,2,"Sun, Cuibing",337.0,10,Y
+202608,TACS23,2172,"Ou, XinlianX",11733201,2,"Sun, Cuibing",57.0,12,Y
+202608,TACS23,2172,"Hu, XiaomeiX",11758813,1,"Kang, Zhuang",68.0,12,Y
+202608,TACS23,2172,"Feng, JingX",11856501,4,"Yuan, Kaiqiang",61.0,12,Y
+202608,TACS23,2172,"Sun, HongtaoX",11879026,3,"Deng, Qiang",4.0,12,
+202608,TACS23,2172,"Ling, YingX",11883610,4,"Yuan, Kaiqiang",1.0,12,
+202608,TACS23,2172,"Chen, ShaoqiuX",11894002,4,"Yuan, Kaiqiang",94.0,12,Y
+202608,TACS23,2172,"Zhao, YanX I",11899924,1,"Kang, Zhuang",107.0,12,Y
+202608,TACS23,2172,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",1.0,12,Y
+202608,TACS23,2172,"He, TingX",11960150,3,"Deng, Qiang",49.0,12,Y
+202608,TACS23,2172,"He, LiangyuX",11961517,3,"Deng, Qiang",65.0,12,Y
+202608,TACS23,2172,"Tang, TianX",11992103,5,"Deng, Qiang",107.0,12,Y
+202608,TACS23,2172,"Xie, XiaoyuX",12015677,2,"Sun, Cuibing",189.0,12,Y
+202608,TACS23,2172,"Wu, YangX",12080979,3,"Deng, Qiang",44.0,12,Y
+202608,TACS23,2172,"Huang, JiaminX",12082443,2,"Sun, Cuibing",65.0,12,Y
+202608,TACS23,2172,"Lu, KaiwenX",12112997,5,"Deng, Qiang",5.0,12,
+202608,TACS23,2172,"Chen, FengzhongX",12136982,6,"Sun, Cuibing",57.0,12,Y
+202608,TACS23,2172,"Chen, DongmeiX",12230182,7,"Kang, Zhuang",38.0,12,Y
+202608,TACS23,2172,"Li, TianX",12305364,5,"Deng, Qiang",197.0,12,Y
+202608,TACS23,2172,"Li, LeiX",12322010,7,"Kang, Zhuang",230.0,12,Y
+202608,TACS23,2172,"Wen, YueX",12337316,6,"Sun, Cuibing",150.0,12,Y
+202608,TACS23,2172,"Hu, FuliX",12344308,6,"Sun, Cuibing",110.0,12,Y
+202608,TACS23,2172,"Gao, JuanX",12345266,7,"Kang, Zhuang",152.0,12,Y
+202608,TACS23,2172,"Feng, HuiwenX",12345273,2,"Sun, Cuibing",116.0,12,Y
+202608,TACS23,2172,"Chen, JianweiX",12347803,5,"Deng, Qiang",126.0,12,Y
+202608,TACS23,2172,"Peng, DaiqiongX",12347805,3,"Deng, Qiang",136.0,12,Y
+202608,TACS23,2172,"Liu, TaoX",12354372,3,"Deng, Qiang",142.0,12,Y
+202608,TACS23,2172,"Yu, LongX",12354556,2,"Sun, Cuibing",139.0,12,Y
+202608,TACS23,2172,"Huang, JialingX",12354570,7,"Kang, Zhuang",209.0,12,Y
+202608,TACS23,2172,"Li, JianqinX",12357211,1,"Kang, Zhuang",67.0,12,Y
+202608,TACS23,2172,"Luo, Chen1X",12358521,4,"Yuan, Kaiqiang",73.0,12,Y
+202608,TACS1,2173,"Kou, TingtingX",11737104,5,"Deng, Qiang",252.0,10,Y
+202608,TACS1,2173,"Ma, XiaominX",11894065,7,"Kang, Zhuang",279.0,10,Y
+202608,TACS1,2173,"Qi, DongmeiX",11973542,1,"Kang, Zhuang",162.0,10,Y
+202608,TACS1,2173,"Wan, YuX",12012321,6,"Sun, Cuibing",293.0,10,Y
+202608,TACS1,2173,"Meng, QianchengX",12026061,2,"Sun, Cuibing",296.0,10,Y
+202608,TACS23,2174,"Ou, XinlianX",11733201,2,"Sun, Cuibing",3.0,12,
+202608,TACS23,2174,"Hu, XiaomeiX",11758813,1,"Kang, Zhuang",3.0,12,Y
+202608,TACS23,2174,"Feng, JingX",11856501,4,"Yuan, Kaiqiang",4.0,12,
+202608,TACS23,2174,"Chen, ShaoqiuX",11894002,4,"Yuan, Kaiqiang",7.0,12,
+202608,TACS23,2174,"Zhao, YanX I",11899924,1,"Kang, Zhuang",2.0,12,Y
+202608,TACS23,2174,"He, TingX",11960150,3,"Deng, Qiang",2.0,12,
+202608,TACS23,2174,"He, LiangyuX",11961517,3,"Deng, Qiang",3.0,12,
+202608,TACS23,2174,"Tang, TianX",11992103,5,"Deng, Qiang",7.0,12,
+202608,TACS23,2174,"Xie, XiaoyuX",12015677,2,"Sun, Cuibing",3.0,12,
+202608,TACS23,2174,"Wu, YangX",12080979,3,"Deng, Qiang",28.0,12,Y
+202608,TACS23,2174,"Huang, JiaminX",12082443,2,"Sun, Cuibing",4.0,12,
+202608,TACS23,2174,"Chen, FengzhongX",12136982,6,"Sun, Cuibing",2.0,12,
+202608,TACS23,2174,"Chen, DongmeiX",12230182,7,"Kang, Zhuang",46.0,12,Y
+202608,TACS23,2174,"Li, TianX",12305364,5,"Deng, Qiang",15.0,12,Y
+202608,TACS23,2174,"Li, LeiX",12322010,7,"Kang, Zhuang",13.0,12,Y
+202608,TACS23,2174,"Wen, YueX",12337316,6,"Sun, Cuibing",3.0,12,
+202608,TACS23,2174,"Hu, FuliX",12344308,6,"Sun, Cuibing",24.0,12,Y
+202608,TACS23,2174,"Gao, JuanX",12345266,7,"Kang, Zhuang",5.0,12,Y
+202608,TACS23,2174,"Feng, HuiwenX",12345273,2,"Sun, Cuibing",14.0,12,Y
+202608,TACS23,2174,"Chen, JianweiX",12347803,5,"Deng, Qiang",3.0,12,
+202608,TACS23,2174,"Peng, DaiqiongX",12347805,3,"Deng, Qiang",7.0,12,
+202608,TACS23,2174,"Liu, TaoX",12354372,3,"Deng, Qiang",3.0,12,
+202608,TACS23,2174,"Yu, LongX",12354556,2,"Sun, Cuibing",1.0,12,
+202608,TACS23,2174,"Huang, JialingX",12354570,7,"Kang, Zhuang",3.0,12,Y
+202608,TACS23,2174,"Li, JianqinX",12357211,1,"Kang, Zhuang",8.0,12,Y
+202608,TACS23,2174,"Luo, Chen1X",12358521,4,"Yuan, Kaiqiang",6.0,12,
+202608,FAST,2177,"Wang, HeleiX",11958936,4,"Yuan, Kaiqiang",29.0,12,Y
+202608,FAST,2177,"Liu, XupengX",12108119,6,"Sun, Cuibing",143.0,12,Y
+202608,FAST,2177,"Chen, HongX",12113034,1,"Kang, Zhuang",138.0,12,Y
+202608,FAST,2177,"Wang, DekangX",12350921,3,"Deng, Qiang",32.0,12,Y
+202608,FAST,2177,"Cui, JingX",12350992,4,"Yuan, Kaiqiang",89.0,12,Y
+202608,FAST,2177,"Yang, HuanyuX",12358512,7,"Kang, Zhuang",114.0,12,Y
+202608,FAST,2177,"Wu, ShaodongX",12358519,4,"Yuan, Kaiqiang",97.0,12,Y
+202608,CSAM,2237,"Wang, YanbinX",11777409,7,"Kang, Zhuang",1.0,1,Y
+202608,CSAM,2237,"Li, ChunhangX",11959097,5,"Deng, Qiang",2.0,1,Y
+202608,CSAM,2237,"Liu, ShilinX",12028347,6,"Sun, Cuibing",3.0,1,Y
+202608,CSAM,2237,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",1.0,1,Y
+202608,CSAM,2237,"Chen, Ming1X",12121764,1,"Kang, Zhuang",4.0,1,Y
+202608,TPX,4992,"Li, TaoX H",11889533,3,"Deng, Qiang",17.0,10,Y
+202608,TPX,4992,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",51.0,10,Y
+202608,TPX,4992,"Sun, TaoX A",11935177,1,"Kang, Zhuang",83.0,10,Y
+202608,TPX,4992,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",22.0,10,Y
+202608,TPX,4992,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",15.0,10,Y
+202608,TPX,4992,"Liu, Qian1X",12103745,5,"Deng, Qiang",91.0,10,Y
+202608,TPX,4992,"Yang, XueliX",12205377,7,"Kang, Zhuang",83.0,10,Y
+202608,TPX,4992,"Liao, YingX",12234936,5,"Deng, Qiang",63.0,10,Y
+202608,TPX,4992,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",110.0,10,Y
+202608,TPX,4992,"Chen, XinxinX",12326190,7,"Kang, Zhuang",79.0,10,Y
+202608,TPX,4992,"Wu, GuochengX",12344320,1,"Kang, Zhuang",82.0,10,Y
+202608,TPX,4992,"Hu, JunX",12344386,3,"Deng, Qiang",118.0,10,Y
+202608,TPX,4992,"He, JialongX",12354573,5,"Deng, Qiang",78.0,10,Y
+202608,TPX,4992,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",47.0,10,Y
+202608,TPX,4992,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",12.0,10,Y
+202608,TPX,4992,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",68.0,10,Y
+202608,TPX,5651,"Li, TaoX H",11889533,3,"Deng, Qiang",165.0,10,Y
+202608,TPX,5651,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",257.0,10,Y
+202608,TPX,5651,"Sun, TaoX A",11935177,1,"Kang, Zhuang",293.0,10,Y
+202608,TPX,5651,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",54.0,10,Y
+202608,TPX,5651,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",79.0,10,Y
+202608,TPX,5651,"Liu, Qian1X",12103745,5,"Deng, Qiang",205.0,10,Y
+202608,TPX,5651,"Li, XueruiX",12136980,2,"Sun, Cuibing",1.0,10,
+202608,TPX,5651,"Yang, XueliX",12205377,7,"Kang, Zhuang",183.0,10,Y
+202608,TPX,5651,"Liao, YingX",12234936,5,"Deng, Qiang",248.0,10,Y
+202608,TPX,5651,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",218.0,10,Y
+202608,TPX,5651,"Chen, XinxinX",12326190,7,"Kang, Zhuang",226.0,10,Y
+202608,TPX,5651,"Wu, GuochengX",12344320,1,"Kang, Zhuang",193.0,10,Y
+202608,TPX,5651,"Hu, JunX",12344386,3,"Deng, Qiang",186.0,10,Y
+202608,TPX,5651,"He, JialongX",12354573,5,"Deng, Qiang",215.0,10,Y
+202608,TPX,5651,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",122.0,10,Y
+202608,TPX,5651,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",97.0,10,Y
+202608,TPX,5651,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",185.0,10,Y
+202608,TPX,5653,"Li, TaoX H",11889533,3,"Deng, Qiang",169.0,10,Y
+202608,TPX,5653,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",255.0,10,Y
+202608,TPX,5653,"Sun, TaoX A",11935177,1,"Kang, Zhuang",251.0,10,Y
+202608,TPX,5653,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",59.0,10,Y
+202608,TPX,5653,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",84.0,10,Y
+202608,TPX,5653,"Liu, Qian1X",12103745,5,"Deng, Qiang",209.0,10,Y
+202608,TPX,5653,"Li, XueruiX",12136980,2,"Sun, Cuibing",3.0,10,
+202608,TPX,5653,"Yang, XueliX",12205377,7,"Kang, Zhuang",177.0,10,Y
+202608,TPX,5653,"Liao, YingX",12234936,5,"Deng, Qiang",250.0,10,Y
+202608,TPX,5653,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",203.0,10,Y
+202608,TPX,5653,"Chen, XinxinX",12326190,7,"Kang, Zhuang",194.0,10,Y
+202608,TPX,5653,"Wu, GuochengX",12344320,1,"Kang, Zhuang",203.0,10,Y
+202608,TPX,5653,"Hu, JunX",12344386,3,"Deng, Qiang",167.0,10,Y
+202608,TPX,5653,"He, JialongX",12354573,5,"Deng, Qiang",230.0,10,Y
+202608,TPX,5653,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",122.0,10,Y
+202608,TPX,5653,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",77.0,10,Y
+202608,TPX,5653,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",190.0,10,Y
+202608,OLB,6379,"Wei, QiangX",11753097,5,"Yang, Yang",102.0,10,Y
+202608,OLB,6379,"Lan, XiaomengX",11770692,6,"Deng, Chengyi",38.0,10,Y
+202608,OLB,6379,"Lin, LingX",11855431,6,"Deng, Chengyi",38.0,10,Y
+202608,OLB,6379,"Yan, JingX",11862241,7,"Li, Yao",76.0,10,Y
+202608,OLB,6379,"Wu, HongyanX",11955635,1,"Li, Yao",24.0,10,Y
+202608,OLB,6379,"Li, HannaX",12136981,3,"Yang, Yang",32.0,10,Y
+202608,OLB,6379,"Zhao, RongrongX",12139784,4,"Wei, Luyi",30.0,10,Y
+202608,OLB,6379,"Huang, JianpingX",12326083,3,"Yang, Yang",82.0,10,Y
+202608,OLB,6379,"Ji, WanxingX",12328957,2,"Deng, Chengyi",66.0,10,Y
+202608,OLB,6379,"Chen, ZhongyouX",12343354,1,"Li, Yao",100.0,10,Y
+202608,OLB,6379,"Nie, QianX",12345265,5,"Yang, Yang",22.0,10,Y
+202608,OLB,6379,"Yang, ZhonghuaX",12354558,4,"Wei, Luyi",72.0,10,Y
+202608,OLB,6379,"Yao, XinyingX",12357292,1,"Li, Yao",36.0,10,Y
+202608,OLB,6379,"Wu, TongdaX",12358513,4,"Wei, Luyi",98.0,10,Y
+202608,OLB,6379,"Cao, JingmingX",12358525,6,"Deng, Chengyi",50.0,10,Y
+202608,V8,6881,"Zhang, LuX L",11742549,2,"Deng, Chengyi",27.0,6,Y
+202608,V8,6881,"Zhang, YingX N",11760409,6,"Deng, Chengyi",52.0,6,Y
+202608,V8,6881,"Jiang, JiaoX",11894050,3,"Yang, Yang",47.0,6,Y
+202608,V8,6881,"Ren, JunX H",11959095,7,"Li, Yao",43.0,6,Y
+202608,V8,6881,"Deng, ZhourongX",11960156,4,"Wei, Luyi",42.0,6,Y
+202608,V8,6881,"Tu, HuanX",12344075,5,"Yang, Yang",32.0,6,Y
+202608,STHI,6970,"Liu, CunyiX",11719817,3,"Liu, Junming",81.0,10,Y
+202608,STHI,6970,"Qi, LinglingX",11733861,1,"Hu, Jiayu",105.0,10,Y
+202608,STHI,6970,"Zhong, ZaimingX",11790469,7,"Hu, Jiayu",58.0,10,Y
+202608,STHI,6970,"Pu, XiaoliX",11900941,1,"Hu, Jiayu",142.0,10,Y
+202608,STHI,6970,"Guo, YingfangX",11919307,5,"Liu, Junming",132.0,10,Y
+202608,STHI,6970,"Wu, DongmeiX",11955631,3,"Liu, Junming",19.0,10,Y
+202608,STHI,6970,"Zheng, YanqiongX",11962665,6,"Hu, Jiang",19.0,10,Y
+202608,STHI,6970,"Geng, WentingX",12043684,2,"Hu, Jiang",87.0,10,Y
+202608,STHI,6970,"Wen, QiangX",12326084,3,"Liu, Junming",60.0,10,Y
+202608,STHI,6970,"Zhang, GaofengX",12326091,1,"Hu, Jiayu",108.0,10,Y
+202608,STHI,6970,"Fan, MingjieX",12336408,2,"Hu, Jiang",121.0,10,Y
+202608,STHI,6970,"Tang, LiX",12337321,4,"Yuan, Kaiqiang",77.0,10,Y
+202608,STHI,6970,"Dai, HangX",12344072,7,"Hu, Jiayu",47.0,10,Y
+202608,STHI,6970,"Li, ZhiyuanX",12345267,5,"Liu, Junming",12.0,10,Y
+202608,STHI,6970,"Li, AnzhiX",12345270,3,"Liu, Junming",47.0,10,Y
+202608,STHI,6970,"Wen, ChaoX",12347801,1,"Hu, Jiayu",149.0,10,Y
+202608,STHI,6970,"Zhu, XiX",12347889,6,"Hu, Jiang",107.0,10,Y
+202608,STHI,6970,"Zeng, JunlinX",12350926,2,"Hu, Jiang",135.0,10,Y
+202608,STHI,6970,"Zhou, TingtingX",12354368,4,"Yuan, Kaiqiang",57.0,10,Y
+202608,STHI,6970,"Huang, GongyuanX",12354575,7,"Hu, Jiayu",87.0,10,Y
+202608,STHI,6970,"Luo, MeixiuX",12354576,5,"Liu, Junming",121.0,10,Y
+202608,STHI,6970,"Wu, JianglinX",12354580,5,"Liu, Junming",73.0,10,Y
+202608,STHI,6970,"Li, LongerX",12357077,7,"Hu, Jiayu",81.0,10,Y
+202608,STHI,6970,"He, Guangqin1X",12357216,2,"Hu, Jiang",121.0,10,Y
+202608,STHI,6970,"He, XinyueX",12357296,3,"Liu, Junming",86.0,10,Y
+202608,TTT,7226,"Fu, DiX",11915245,7,"Li, Yao",342.0,10,Y
+202608,TTT,7226,"Gou, ZhiqiangX",11955624,5,"Yang, Yang",298.0,10,Y
+202608,TTT,7226,"Cheng, HuaX",12117225,6,"Deng, Chengyi",308.0,10,Y
+202608,TTT,7226,"Tang, WeiX",12230179,4,"Wei, Luyi",34.0,10,Y
+202608,TTT,7226,"Wu, WeiX",12234913,3,"Yang, Yang",577.0,10,Y
+202608,TTT,7226,"Chen, KeX",12316473,6,"Deng, Chengyi",343.0,10,Y
+202608,TTT,7226,"Wang, XinyuX",12329190,2,"Deng, Chengyi",350.0,10,Y
+202608,TTT,7226,"Chen, Xi1X",12330069,2,"Deng, Chengyi",248.0,10,Y
+202608,TTT,7226,"Jian, WubinX",12336422,1,"Li, Yao",368.0,10,Y
+202608,TTT,7226,"Feng, YuzeX",12350929,4,"Wei, Luyi",337.0,10,Y
+202608,TTT,7226,"Yang, WeiX",12357081,7,"Li, Yao",492.0,10,Y
+202608,TTT,7226,"Cai, XinchengX",12357212,4,"Wei, Luyi",350.0,10,Y
+202608,TTT,7226,"Wu, GuannanX",12361846,3,"Yang, Yang",14.0,10,Y
+202608,OLB,7571,"Wei, QiangX",11753097,5,"Yang, Yang",1107.0,10,Y
+202608,OLB,7571,"Lan, XiaomengX",11770692,6,"Deng, Chengyi",542.0,10,Y
+202608,OLB,7571,"Lin, LingX",11855431,6,"Deng, Chengyi",662.0,10,Y
+202608,OLB,7571,"Yan, JingX",11862241,7,"Li, Yao",898.0,10,Y
+202608,OLB,7571,"Wu, HongyanX",11955635,1,"Li, Yao",333.0,10,Y
+202608,OLB,7571,"Li, HannaX",12136981,3,"Yang, Yang",712.0,10,Y
+202608,OLB,7571,"Zhao, RongrongX",12139784,4,"Wei, Luyi",318.0,10,Y
+202608,OLB,7571,"Huang, JianpingX",12326083,3,"Yang, Yang",958.0,10,Y
+202608,OLB,7571,"Ji, WanxingX",12328957,2,"Deng, Chengyi",675.0,10,Y
+202608,OLB,7571,"Chen, ZhongyouX",12343354,1,"Li, Yao",1002.0,10,Y
+202608,OLB,7571,"Nie, QianX",12345265,5,"Yang, Yang",500.0,10,Y
+202608,OLB,7571,"Yang, ZhonghuaX",12354558,4,"Wei, Luyi",747.0,10,Y
+202608,OLB,7571,"Yao, XinyingX",12357292,1,"Li, Yao",675.0,10,Y
+202608,OLB,7571,"Wu, TongdaX",12358513,4,"Wei, Luyi",999.0,10,Y
+202608,OLB,7571,"Cao, JingmingX",12358525,6,"Deng, Chengyi",617.0,10,Y
+202608,HDMX,7820,"Ye, KunboX",11709812,4,"Yuan, Kaiqiang",128.0,6,Y
+202608,HDMX,7820,"Wang, QianX N",11762365,5,"Liu, Junming",132.0,6,Y
+202608,HDMX,7820,"Liu, QingqingX",11822293,6,"Hu, Jiang",194.0,6,Y
+202608,HDMX,7820,"Liu, LeiX",11907120,7,"Hu, Jiayu",157.0,6,Y
+202608,HDMX,7820,"Dai, LinyanX",11919306,7,"Hu, Jiayu",135.0,6,Y
+202608,HDMX,7820,"Ren, XiaoqiongX",11935176,6,"Hu, Jiang",146.0,6,Y
+202608,HDMX,7820,"He, YanX",11959107,5,"Liu, Junming",132.0,6,Y
+202608,HDMX,7820,"Xie, JunyuX",11960148,4,"Yuan, Kaiqiang",48.0,6,Y
+202608,HDMX,7820,"Luo, YalanX",11968712,6,"Hu, Jiang",159.0,6,Y
+202608,HDMX,7820,"Wu, QiangX",12028341,1,"Hu, Jiayu",150.0,6,Y
+202608,HDMX,7820,"Liu, QiongX",12137017,5,"Liu, Junming",90.0,6,Y
+202608,HDMX,7820,"Liu, Yi2X",12234911,3,"Liu, Junming",158.0,6,Y
+202608,HDMX,7820,"Fu, FangjianX",12337336,4,"Yuan, Kaiqiang",108.0,6,Y
+202608,HDMX,7820,"Xu, HaishengX",12343501,6,"Hu, Jiang",87.0,6,Y
+202608,HDMX,7820,"Tang, HongqiangX",12343506,2,"Hu, Jiang",107.0,6,Y
+202608,HDMX,7820,"Zhang, XiongX",12345262,6,"Hu, Jiang",84.0,6,Y
+202608,HDMX,7820,"Xiang, MengX",12347797,7,"Hu, Jiayu",108.0,6,Y
+202608,HDMX,7820,"Ma, TaoX",12350920,6,"Hu, Jiang",122.0,6,Y
+202608,HDMX,7820,"Luo, ZhenghongX",12350922,5,"Liu, Junming",155.0,6,Y
+202608,HDMX,7820,"Zhang, YongfeiX",12350924,2,"Hu, Jiang",73.0,6,Y
+202608,HDMX,7820,"Liao, LiX",12354441,4,"Yuan, Kaiqiang",123.0,6,Y
+202608,HDMX,7820,"Xie, TingjunX",12357209,1,"Hu, Jiayu",127.0,6,Y
+202608,HDMX,7820,"Wang, YilongX",12361843,2,"Hu, Jiang",10.0,6,Y
+202608,HDMX,7820,"Xin, MengyanX",12361849,3,"Liu, Junming",12.0,6,Y
+202608,HDMX,7820,"Hu, AnchaoX",12361861,3,"Liu, Junming",11.0,6,Y
+202608,EOL MARK,7906,"Shu, PengX",11895384,1,"Li, Yao",133.0,10,Y
+202608,EOL MARK,7906,"Liu, WeiX K",11899925,2,"Deng, Chengyi",69.0,10,Y
+202608,EOL MARK,7906,"Wang, JinxuanX",11915558,6,"Deng, Chengyi",83.0,10,Y
+202608,EOL MARK,7906,"Ye, ChunmeiX",11992100,4,"Wei, Luyi",160.0,10,Y
+202608,EOL MARK,7906,"Zhang, Liang1X",12028603,3,"Yang, Yang",160.0,10,Y
+202608,EOL MARK,7906,"Li, JianyouX",12105964,7,"Li, Yao",59.0,10,Y
+202608,EOL MARK,7906,"Cheng, GuoX",12112991,4,"Wei, Luyi",15.0,10,Y
+202608,EOL MARK,7906,"Chen, ZhangjunX",12114734,7,"Li, Yao",123.0,10,Y
+202608,EOL MARK,7906,"Yao, MingX",12234917,5,"Yang, Yang",149.0,10,Y
+202608,EOL MARK,7906,"Tian, LingX",12331515,6,"Deng, Chengyi",106.0,10,Y
+202608,EOL MARK,7906,"Zhang, ZhuohangX",12358507,1,"Li, Yao",112.0,10,Y
+202608,EOL MARK,7906,"Shao, TianchengX",12361839,2,"Deng, Chengyi",6.0,10,
+202608,EOL MARK,7906,"Chen, NandongX",12361871,6,"Deng, Chengyi",21.0,10,Y
+202608,EOL MARK,7906,"Li, QishuaiX",12361873,6,"Deng, Chengyi",4.0,10,
+202609,TACS23,2174,"Ma, ChongX",11684839,2,"Sun, Cuibing",0.0,12,
+202609,TACS23,2172,"Ma, ChongX",11684839,2,"Sun, Cuibing",0.0,12,
+202609,TACS23,2174,"Sun, HongtaoX",11879026,3,"Deng, Qiang",0.0,12,
+202609,STHI,6970,"Yin, ChaoX",11883020,1,"Hu, Jiayu",0.0,10,
+202609,TACS23,2174,"Ling, YingX",11883610,4,"Yuan, Kaiqiang",0.0,12,
+202609,EOL MARK,7906,"Huang, LiX",11898885,7,"Li, Yao",0.0,10,
+202609,TACS23,2174,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",0.0,12,Y
+202609,TACS23,2174,"He, LiangyuX",11961517,3,"Deng, Qiang",0.0,12,
+202609,V8,6881,,,5,"Yang, Yang",0.0,6,
+202609,TACS1,2170,"He, Qiaoling",12046979,3,"Deng, Qiang",0.0,10,
+202609,TACS1,2173,"He, Qiaoling",12046979,3,"Deng, Qiang",0.0,10,
+202609,OLB,7571,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0.0,10,
+202609,OLB,6379,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0.0,10,
+202609,TPX,5651,"Li, XueruiX",12136980,2,"Sun, Cuibing",0.0,10,
+202609,TPX,1501,"Li, XueruiX",12136980,2,"Sun, Cuibing",0.0,10,
+202609,TPX,4992,"Li, XueruiX",12136980,2,"Sun, Cuibing",0.0,10,
+202609,TACS23,2174,"Chen, FengzhongX",12136982,6,"Sun, Cuibing",0.0,12,
+202609,DVI,1007,"Zhao, YuanchaoX",12350935,4,"Wei, Luyi",0.0,10,
+202609,DVI,1007,,,5,"Yang, Yang",0.0,10,
+202609,STHI,6970,"Zhang, Yingxia",12336402,3,"Liu, Junming",0.0,10,
+202609,NXR,0265,"Wang, YanbinX",11777409,7,"Kang, Zhuang",244.0,4,Y
+202609,NXR,0265,"Li, ChunhangX",11959097,5,"Deng, Qiang",264.0,4,Y
+202609,NXR,0265,"Liu, ShilinX",12028347,6,"Sun, Cuibing",271.0,4,Y
+202609,NXR,0265,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",272.0,4,Y
+202609,NXR,0265,"Chen, Ming1X",12121764,1,"Kang, Zhuang",312.0,4,Y
+202609,FOL MARK,0614,"Pu, LiqiongX",11919444,7,"Li, Yao",205.0,6,Y
+202609,FOL MARK,0614,"Bai, KunlingX",11953965,1,"Li, Yao",209.0,6,Y
+202609,FOL MARK,0614,"Xiang, XianlongX",12121721,3,"Yang, Yang",185.0,6,Y
+202609,FOL MARK,0614,"Zhang, Le1X",12217881,2,"Deng, Chengyi",296.0,6,Y
+202609,FOL MARK,0614,"Peng, HuiX",12303553,5,"Yang, Yang",236.0,6,Y
+202609,DVI,1007,"Jing, HualanX",12022214,6,"Deng, Chengyi",415.0,10,Y
+202609,DVI,1007,"He, JunxingX",12223825,3,"Yang, Yang",557.0,10,Y
+202609,DVI,1007,"Ma, YicaiX",12330000,5,"Yang, Yang",485.0,10,Y
+202609,DVI,1007,"Tang, YuyangX",12336406,7,"Li, Yao",547.0,10,Y
+202609,DVI,1007,"Liao, YuX",12350931,4,"Wei, Luyi",21.0,10,Y
+202609,DVI,1007,"Li, JibinX",12354367,4,"Wei, Luyi",374.0,10,Y
+202609,DVI,1007,"Xu, JieX",12354574,2,"Deng, Chengyi",463.0,10,Y
+202609,DVI,1007,"Zheng, MaoshengX",12357078,6,"Deng, Chengyi",422.0,10,Y
+202609,DVI,1007,"Sun, Yang1X",12357082,3,"Yang, Yang",539.0,10,Y
+202609,DVI,1007,"Zou, YuxinX",12357091,1,"Li, Yao",343.0,10,Y
+202609,DVI,1007,"Liang, JieX",12361832,1,"Li, Yao",619.0,10,Y
+202609,DVI,1007,"Liu, JinhaoX",12364756,2,"Deng, Chengyi",134.0,10,Y
+202609,DVI,1007,"Huang, QingxiuX",12364778,4,"Wei, Luyi",68.0,10,Y
+202609,CURE,1173,"Fu, RongX",11751502,4,"Yuan, Kaiqiang",266.0,10,Y
+202609,CURE,1173,"Zeng, XianchuanX",11758822,6,"Sun, Cuibing",158.0,10,Y
+202609,CURE,1173,"Zhou, JunX",11879024,4,"Yuan, Kaiqiang",28.0,10,Y
+202609,CURE,1173,"Wen, WanquanX",11941174,1,"Kang, Zhuang",149.0,10,Y
+202609,CURE,1173,"Huang, Qian1X",11968539,7,"Kang, Zhuang",238.0,10,Y
+202609,CURE,1173,"Xie, XiangangX",12022219,2,"Sun, Cuibing",132.0,10,Y
+202609,CURE,1173,"Li, YuhongX",12034336,6,"Sun, Cuibing",82.0,10,Y
+202609,CURE,1173,"Liu, ZhongxunX",12059196,5,"Deng, Qiang",262.0,10,Y
+202609,CURE,1173,"Zhao, HaifengX",12082819,4,"Yuan, Kaiqiang",4.0,10,
+202609,CURE,1173,"Zheng, XiangfengX",12139828,3,"Deng, Qiang",66.0,10,Y
+202609,CURE,1173,"Song, XiaoliX",12223829,2,"Sun, Cuibing",104.0,10,Y
+202609,CURE,1173,"Zhang, HaiX",12303552,1,"Kang, Zhuang",72.0,10,Y
+202609,CURE,1173,"Xu, Ping1X",12316331,5,"Deng, Qiang",66.0,10,Y
+202609,CURE,1173,"Wu, BingqiaoX",12322113,1,"Kang, Zhuang",36.0,10,Y
+202609,CURE,1173,"Zhou, KeX",12354557,7,"Kang, Zhuang",58.0,10,Y
+202609,CURE,1235,"Fu, RongX",11751502,4,"Yuan, Kaiqiang",121.0,10,Y
+202609,CURE,1235,"Zeng, XianchuanX",11758822,6,"Sun, Cuibing",121.0,10,Y
+202609,CURE,1235,"Zhou, JunX",11879024,4,"Yuan, Kaiqiang",12.0,10,Y
+202609,CURE,1235,"Wen, WanquanX",11941174,1,"Kang, Zhuang",171.0,10,Y
+202609,CURE,1235,"Huang, Qian1X",11968539,7,"Kang, Zhuang",130.0,10,Y
+202609,CURE,1235,"Xie, XiangangX",12022219,2,"Sun, Cuibing",201.0,10,Y
+202609,CURE,1235,"Li, YuhongX",12034336,6,"Sun, Cuibing",85.0,10,Y
+202609,CURE,1235,"Liu, ZhongxunX",12059196,5,"Deng, Qiang",231.0,10,Y
+202609,CURE,1235,"Zhao, HaifengX",12082819,4,"Yuan, Kaiqiang",4.0,10,
+202609,CURE,1235,"Zheng, XiangfengX",12139828,3,"Deng, Qiang",39.0,10,Y
+202609,CURE,1235,"Song, XiaoliX",12223829,2,"Sun, Cuibing",29.0,10,Y
+202609,CURE,1235,"Zhang, HaiX",12303552,1,"Kang, Zhuang",106.0,10,Y
+202609,CURE,1235,"Xu, Ping1X",12316331,5,"Deng, Qiang",101.0,10,Y
+202609,CURE,1235,"Wu, BingqiaoX",12322113,1,"Kang, Zhuang",10.0,10,Y
+202609,CURE,1235,"Zhou, KeX",12354557,7,"Kang, Zhuang",69.0,10,Y
+202609,CSAM,1237,"Wang, YanbinX",11777409,7,"Kang, Zhuang",76.0,4,Y
+202609,CSAM,1237,"Li, ChunhangX",11959097,5,"Deng, Qiang",92.0,4,Y
+202609,CSAM,1237,"Liu, ShilinX",12028347,6,"Sun, Cuibing",99.0,4,Y
+202609,CSAM,1237,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",67.0,4,Y
+202609,CSAM,1237,"Chen, Ming1X",12121764,1,"Kang, Zhuang",81.0,4,Y
+202609,TPX,1501,"Li, TaoX H",11889533,3,"Deng, Qiang",39.0,10,Y
+202609,TPX,1501,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",85.0,10,Y
+202609,TPX,1501,"Sun, TaoX A",11935177,1,"Kang, Zhuang",86.0,10,Y
+202609,TPX,1501,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",38.0,10,Y
+202609,TPX,1501,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",76.0,10,Y
+202609,TPX,1501,"Liu, Qian1X",12103745,5,"Deng, Qiang",91.0,10,Y
+202609,TPX,1501,"Yang, XueliX",12205377,7,"Kang, Zhuang",62.0,10,Y
+202609,TPX,1501,"Liao, YingX",12234936,5,"Deng, Qiang",114.0,10,Y
+202609,TPX,1501,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",90.0,10,Y
+202609,TPX,1501,"Chen, XinxinX",12326190,7,"Kang, Zhuang",118.0,10,Y
+202609,TPX,1501,"Wu, GuochengX",12344320,1,"Kang, Zhuang",86.0,10,Y
+202609,TPX,1501,"Hu, JunX",12344386,3,"Deng, Qiang",71.0,10,Y
+202609,TPX,1501,"He, JialongX",12354573,5,"Deng, Qiang",106.0,10,Y
+202609,TPX,1501,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",91.0,10,Y
+202609,TPX,1501,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",51.0,10,Y
+202609,TPX,1501,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",169.0,10,Y
+202609,TPX,1501,"He, LinshuangX",12361859,3,"Deng, Qiang",68.0,10,Y
+202609,TPX,1501,"Yu, Yang1X",12361987,3,"Deng, Qiang",82.0,10,Y
+202609,PLASMA,2048,"Liu, XueqinX",12112992,7,"Kang, Zhuang",492.0,12,Y
+202609,PLASMA,2048,"Yang, YinchuanX",12330659,1,"Kang, Zhuang",14.0,12,Y
+202609,PLASMA,2048,"Xia, NingyuX",12330660,2,"Sun, Cuibing",1036.0,12,Y
+202609,PLASMA,2048,"Zhou, MinguoX",12330673,6,"Sun, Cuibing",777.0,12,Y
+202609,PLASMA,2048,"He, XueX",12343505,5,"Deng, Qiang",1492.0,12,Y
+202609,CTT,2150,"Liu, HuayuX",11868437,4,"Yuan, Kaiqiang",889.0,12,Y
+202609,CTT,2150,"Zhong, GuihuaX",11941175,6,"Sun, Cuibing",955.0,12,Y
+202609,CTT,2150,"Pu, MinX",12076990,2,"Sun, Cuibing",671.0,12,Y
+202609,CTT,2150,"Yang, LeX",12212207,3,"Deng, Qiang",73.0,12,Y
+202609,CTT,2150,"Zheng, RenlongX",12269570,5,"Deng, Qiang",653.0,12,Y
+202609,CTT,2150,"Wang, Li1X",12336502,3,"Deng, Qiang",819.0,12,Y
+202609,TACS1,2170,"Kou, TingtingX",11737104,5,"Deng, Qiang",285.0,10,Y
+202609,TACS1,2170,"Ma, XiaominX",11894065,7,"Kang, Zhuang",290.0,10,Y
+202609,TACS1,2170,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",17.0,10,Y
+202609,TACS1,2170,"Qi, DongmeiX",11973542,1,"Kang, Zhuang",223.0,10,Y
+202609,TACS1,2170,"Wan, YuX",12012321,6,"Sun, Cuibing",295.0,10,Y
+202609,TACS1,2170,"Meng, QianchengX",12026061,2,"Sun, Cuibing",373.0,10,Y
+202609,TACS23,2172,"Ou, XinlianX",11733201,2,"Sun, Cuibing",96.0,12,Y
+202609,TACS23,2172,"Hu, XiaomeiX",11758813,1,"Kang, Zhuang",163.0,12,Y
+202609,TACS23,2172,"Feng, JingX",11856501,4,"Yuan, Kaiqiang",80.0,12,Y
+202609,TACS23,2172,"Sun, HongtaoX",11879026,3,"Deng, Qiang",23.0,12,Y
+202609,TACS23,2172,"Ling, YingX",11883610,4,"Yuan, Kaiqiang",6.0,12,
+202609,TACS23,2172,"Chen, ShaoqiuX",11894002,4,"Yuan, Kaiqiang",126.0,12,Y
+202609,TACS23,2172,"Zhao, YanX I",11899924,1,"Kang, Zhuang",52.0,12,Y
+202609,TACS23,2172,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",4.0,12,Y
+202609,TACS23,2172,"He, TingX",11960150,3,"Deng, Qiang",60.0,12,Y
+202609,TACS23,2172,"He, LiangyuX",11961517,3,"Deng, Qiang",104.0,12,Y
+202609,TACS23,2172,"Tang, TianX",11992103,5,"Deng, Qiang",121.0,12,Y
+202609,TACS23,2172,"Xie, XiaoyuX",12015677,2,"Sun, Cuibing",137.0,12,Y
+202609,TACS23,2172,"Wu, YangX",12080979,3,"Deng, Qiang",117.0,12,Y
+202609,TACS23,2172,"Huang, JiaminX",12082443,2,"Sun, Cuibing",141.0,12,Y
+202609,TACS23,2172,"Lu, KaiwenX",12112997,5,"Deng, Qiang",32.0,12,Y
+202609,TACS23,2172,"Chen, FengzhongX",12136982,6,"Sun, Cuibing",82.0,12,Y
+202609,TACS23,2172,"Chen, DongmeiX",12230182,7,"Kang, Zhuang",130.0,12,Y
+202609,TACS23,2172,"Li, TianX",12305364,5,"Deng, Qiang",185.0,12,Y
+202609,TACS23,2172,"Li, LeiX",12322010,7,"Kang, Zhuang",259.0,12,Y
+202609,TACS23,2172,"Wen, YueX",12337316,6,"Sun, Cuibing",192.0,12,Y
+202609,TACS23,2172,"Hu, FuliX",12344308,6,"Sun, Cuibing",321.0,12,Y
+202609,TACS23,2172,"Gao, JuanX",12345266,7,"Kang, Zhuang",158.0,12,Y
+202609,TACS23,2172,"Feng, HuiwenX",12345273,2,"Sun, Cuibing",166.0,12,Y
+202609,TACS23,2172,"Chen, JianweiX",12347803,5,"Deng, Qiang",166.0,12,Y
+202609,TACS23,2172,"Peng, DaiqiongX",12347805,3,"Deng, Qiang",229.0,12,Y
+202609,TACS23,2172,"Liu, TaoX",12354372,3,"Deng, Qiang",194.0,12,Y
+202609,TACS23,2172,"Yu, LongX",12354556,2,"Sun, Cuibing",149.0,12,Y
+202609,TACS23,2172,"Huang, JialingX",12354570,7,"Kang, Zhuang",253.0,12,Y
+202609,TACS23,2172,"Li, JianqinX",12357211,1,"Kang, Zhuang",170.0,12,Y
+202609,TACS23,2172,"Luo, Chen1X",12358521,4,"Yuan, Kaiqiang",181.0,12,Y
+202609,TACS23,2172,"Peng, YuX",12361838,5,"Deng, Qiang",236.0,12,Y
+202609,TACS23,2172,"Zhang, Wei2X",12364956,1,"Kang, Zhuang",5.0,12,Y
+202609,TACS1,2173,"Kou, TingtingX",11737104,5,"Deng, Qiang",286.0,10,Y
+202609,TACS1,2173,"Ma, XiaominX",11894065,7,"Kang, Zhuang",254.0,10,Y
+202609,TACS1,2173,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",12.0,10,Y
+202609,TACS1,2173,"Qi, DongmeiX",11973542,1,"Kang, Zhuang",153.0,10,Y
+202609,TACS1,2173,"Wan, YuX",12012321,6,"Sun, Cuibing",243.0,10,Y
+202609,TACS1,2173,"Meng, QianchengX",12026061,2,"Sun, Cuibing",256.0,10,Y
+202609,TACS23,2174,"Ou, XinlianX",11733201,2,"Sun, Cuibing",1.0,12,
+202609,TACS23,2174,"Hu, XiaomeiX",11758813,1,"Kang, Zhuang",8.0,12,Y
+202609,TACS23,2174,"Feng, JingX",11856501,4,"Yuan, Kaiqiang",7.0,12,
+202609,TACS23,2174,"Chen, ShaoqiuX",11894002,4,"Yuan, Kaiqiang",3.0,12,
+202609,TACS23,2174,"Zhao, YanX I",11899924,1,"Kang, Zhuang",5.0,12,Y
+202609,TACS23,2174,"He, TingX",11960150,3,"Deng, Qiang",4.0,12,
+202609,TACS23,2174,"Tang, TianX",11992103,5,"Deng, Qiang",3.0,12,
+202609,TACS23,2174,"Xie, XiaoyuX",12015677,2,"Sun, Cuibing",11.0,12,
+202609,TACS23,2174,"Wu, YangX",12080979,3,"Deng, Qiang",20.0,12,Y
+202609,TACS23,2174,"Huang, JiaminX",12082443,2,"Sun, Cuibing",8.0,12,
+202609,TACS23,2174,"Lu, KaiwenX",12112997,5,"Deng, Qiang",3.0,12,
+202609,TACS23,2174,"Chen, DongmeiX",12230182,7,"Kang, Zhuang",22.0,12,Y
+202609,TACS23,2174,"Li, TianX",12305364,5,"Deng, Qiang",33.0,12,Y
+202609,TACS23,2174,"Li, LeiX",12322010,7,"Kang, Zhuang",26.0,12,Y
+202609,TACS23,2174,"Wen, YueX",12337316,6,"Sun, Cuibing",4.0,12,
+202609,TACS23,2174,"Hu, FuliX",12344308,6,"Sun, Cuibing",19.0,12,Y
+202609,TACS23,2174,"Gao, JuanX",12345266,7,"Kang, Zhuang",2.0,12,Y
+202609,TACS23,2174,"Feng, HuiwenX",12345273,2,"Sun, Cuibing",1.0,12,
+202609,TACS23,2174,"Chen, JianweiX",12347803,5,"Deng, Qiang",4.0,12,
+202609,TACS23,2174,"Peng, DaiqiongX",12347805,3,"Deng, Qiang",20.0,12,Y
+202609,TACS23,2174,"Liu, TaoX",12354372,3,"Deng, Qiang",2.0,12,
+202609,TACS23,2174,"Yu, LongX",12354556,2,"Sun, Cuibing",8.0,12,
+202609,TACS23,2174,"Huang, JialingX",12354570,7,"Kang, Zhuang",1.0,12,Y
+202609,TACS23,2174,"Li, JianqinX",12357211,1,"Kang, Zhuang",14.0,12,Y
+202609,TACS23,2174,"Luo, Chen1X",12358521,4,"Yuan, Kaiqiang",5.0,12,
+202609,TACS23,2174,"Peng, YuX",12361838,5,"Deng, Qiang",6.0,12,
+202609,TACS23,2174,"Zhang, Wei2X",12364956,1,"Kang, Zhuang",1.0,12,Y
+202609,FAST,2177,"Wang, HeleiX",11958936,4,"Yuan, Kaiqiang",16.0,12,Y
+202609,FAST,2177,"Liu, XupengX",12108119,6,"Sun, Cuibing",93.0,12,Y
+202609,FAST,2177,"Chen, HongX",12113034,1,"Kang, Zhuang",127.0,12,Y
+202609,FAST,2177,"Wang, DekangX",12350921,3,"Deng, Qiang",69.0,12,Y
+202609,FAST,2177,"Cui, JingX",12350992,4,"Yuan, Kaiqiang",48.0,12,Y
+202609,FAST,2177,"Yang, HuanyuX",12358512,7,"Kang, Zhuang",165.0,12,Y
+202609,FAST,2177,"Wu, ShaodongX",12358519,4,"Yuan, Kaiqiang",148.0,12,Y
+202609,FAST,2177,"Wu, PingX",12364790,1,"Kang, Zhuang",63.0,12,Y
+202609,FAST,2177,"Tian, ShuyuX",12364791,6,"Sun, Cuibing",63.0,12,Y
+202609,CSAM,2237,"Wang, YanbinX",11777409,7,"Kang, Zhuang",2.0,1,Y
+202609,CSAM,2237,"Li, ChunhangX",11959097,5,"Deng, Qiang",3.0,1,Y
+202609,CSAM,2237,"Liu, ShilinX",12028347,6,"Sun, Cuibing",3.0,1,Y
+202609,CSAM,2237,"Wang, ZhengchaoX",12082797,4,"Yuan, Kaiqiang",1.0,1,Y
+202609,CSAM,2237,"Chen, Ming1X",12121764,1,"Kang, Zhuang",1.0,1,Y
+202609,TPX,4992,"Li, TaoX H",11889533,3,"Deng, Qiang",39.0,10,Y
+202609,TPX,4992,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",86.0,10,Y
+202609,TPX,4992,"Sun, TaoX A",11935177,1,"Kang, Zhuang",91.0,10,Y
+202609,TPX,4992,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",37.0,10,Y
+202609,TPX,4992,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",80.0,10,Y
+202609,TPX,4992,"Liu, Qian1X",12103745,5,"Deng, Qiang",80.0,10,Y
+202609,TPX,4992,"Yang, XueliX",12205377,7,"Kang, Zhuang",67.0,10,Y
+202609,TPX,4992,"Liao, YingX",12234936,5,"Deng, Qiang",108.0,10,Y
+202609,TPX,4992,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",89.0,10,Y
+202609,TPX,4992,"Chen, XinxinX",12326190,7,"Kang, Zhuang",113.0,10,Y
+202609,TPX,4992,"Wu, GuochengX",12344320,1,"Kang, Zhuang",98.0,10,Y
+202609,TPX,4992,"Hu, JunX",12344386,3,"Deng, Qiang",66.0,10,Y
+202609,TPX,4992,"He, JialongX",12354573,5,"Deng, Qiang",108.0,10,Y
+202609,TPX,4992,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",95.0,10,Y
+202609,TPX,4992,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",61.0,10,Y
+202609,TPX,4992,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",177.0,10,Y
+202609,TPX,4992,"He, LinshuangX",12361859,3,"Deng, Qiang",68.0,10,Y
+202609,TPX,4992,"Yu, Yang1X",12361987,3,"Deng, Qiang",98.0,10,Y
+202609,TPX,5651,"Li, TaoX H",11889533,3,"Deng, Qiang",79.0,10,Y
+202609,TPX,5651,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",181.0,10,Y
+202609,TPX,5651,"Sun, TaoX A",11935177,1,"Kang, Zhuang",347.0,10,Y
+202609,TPX,5651,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",103.0,10,Y
+202609,TPX,5651,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",99.0,10,Y
+202609,TPX,5651,"Liu, Qian1X",12103745,5,"Deng, Qiang",262.0,10,Y
+202609,TPX,5651,"Yang, XueliX",12205377,7,"Kang, Zhuang",177.0,10,Y
+202609,TPX,5651,"Liao, YingX",12234936,5,"Deng, Qiang",291.0,10,Y
+202609,TPX,5651,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",302.0,10,Y
+202609,TPX,5651,"Chen, XinxinX",12326190,7,"Kang, Zhuang",283.0,10,Y
+202609,TPX,5651,"Wu, GuochengX",12344320,1,"Kang, Zhuang",224.0,10,Y
+202609,TPX,5651,"Hu, JunX",12344386,3,"Deng, Qiang",101.0,10,Y
+202609,TPX,5651,"He, JialongX",12354573,5,"Deng, Qiang",252.0,10,Y
+202609,TPX,5651,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",176.0,10,Y
+202609,TPX,5651,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",274.0,10,Y
+202609,TPX,5651,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",314.0,10,Y
+202609,TPX,5651,"He, LinshuangX",12361859,3,"Deng, Qiang",253.0,10,Y
+202609,TPX,5651,"Yu, Yang1X",12361987,3,"Deng, Qiang",353.0,10,Y
+202609,TPX,5653,"Li, TaoX H",11889533,3,"Deng, Qiang",66.0,10,Y
+202609,TPX,5653,"Zhuang, XuanqiongX",11894805,4,"Yuan, Kaiqiang",170.0,10,Y
+202609,TPX,5653,"Sun, TaoX A",11935177,1,"Kang, Zhuang",340.0,10,Y
+202609,TPX,5653,"Zhang, KaipingX",11938987,2,"Sun, Cuibing",116.0,10,Y
+202609,TPX,5653,"Huang, ZuoweiX",12103739,6,"Sun, Cuibing",121.0,10,Y
+202609,TPX,5653,"Liu, Qian1X",12103745,5,"Deng, Qiang",273.0,10,Y
+202609,TPX,5653,"Li, XueruiX",12136980,2,"Sun, Cuibing",1.0,10,
+202609,TPX,5653,"Yang, XueliX",12205377,7,"Kang, Zhuang",191.0,10,Y
+202609,TPX,5653,"Liao, YingX",12234936,5,"Deng, Qiang",267.0,10,Y
+202609,TPX,5653,"Luo, Rui1X",12322109,4,"Yuan, Kaiqiang",295.0,10,Y
+202609,TPX,5653,"Chen, XinxinX",12326190,7,"Kang, Zhuang",313.0,10,Y
+202609,TPX,5653,"Wu, GuochengX",12344320,1,"Kang, Zhuang",248.0,10,Y
+202609,TPX,5653,"Hu, JunX",12344386,3,"Deng, Qiang",103.0,10,Y
+202609,TPX,5653,"He, JialongX",12354573,5,"Deng, Qiang",266.0,10,Y
+202609,TPX,5653,"Li, ZhiqiangX",12357062,2,"Sun, Cuibing",187.0,10,Y
+202609,TPX,5653,"Zhu, QiweiX",12357214,2,"Sun, Cuibing",280.0,10,Y
+202609,TPX,5653,"Xie, GuochuanX",12357217,6,"Sun, Cuibing",303.0,10,Y
+202609,TPX,5653,"He, LinshuangX",12361859,3,"Deng, Qiang",244.0,10,Y
+202609,TPX,5653,"Yu, Yang1X",12361987,3,"Deng, Qiang",323.0,10,Y
+202609,OLB,6379,"Wei, QiangX",11753097,5,"Yang, Yang",90.0,10,Y
+202609,OLB,6379,"Lan, XiaomengX",11770692,6,"Deng, Chengyi",30.0,10,Y
+202609,OLB,6379,"Lin, LingX",11855431,6,"Deng, Chengyi",72.0,10,Y
+202609,OLB,6379,"Yan, JingX",11862241,7,"Li, Yao",74.0,10,Y
+202609,OLB,6379,"Wu, HongyanX",11955635,1,"Li, Yao",32.0,10,Y
+202609,OLB,6379,"Li, HannaX",12136981,3,"Yang, Yang",72.0,10,Y
+202609,OLB,6379,"Zhao, RongrongX",12139784,4,"Wei, Luyi",16.0,10,Y
+202609,OLB,6379,"Huang, JianpingX",12326083,3,"Yang, Yang",60.0,10,Y
+202609,OLB,6379,"Ji, WanxingX",12328957,2,"Deng, Chengyi",40.0,10,Y
+202609,OLB,6379,"Chen, ZhongyouX",12343354,1,"Li, Yao",62.0,10,Y
+202609,OLB,6379,"Nie, QianX",12345265,5,"Yang, Yang",74.0,10,Y
+202609,OLB,6379,"Yang, ZhonghuaX",12354558,4,"Wei, Luyi",56.0,10,Y
+202609,OLB,6379,"Yao, XinyingX",12357292,1,"Li, Yao",42.0,10,Y
+202609,OLB,6379,"Wu, TongdaX",12358513,4,"Wei, Luyi",88.0,10,Y
+202609,OLB,6379,"Cao, JingmingX",12358525,6,"Deng, Chengyi",62.0,10,Y
+202609,OLB,6379,"Wu, YongtingX",12364792,3,"Yang, Yang",8.0,10,
+202609,V8,6881,"Zhang, LuX L",11742549,2,"Deng, Chengyi",72.0,6,Y
+202609,V8,6881,"Zhang, YingX N",11760409,6,"Deng, Chengyi",64.0,6,Y
+202609,V8,6881,"Jiang, JiaoX",11894050,3,"Yang, Yang",78.0,6,Y
+202609,V8,6881,"Ren, JunX H",11959095,7,"Li, Yao",67.0,6,Y
+202609,V8,6881,"Deng, ZhourongX",11960156,4,"Wei, Luyi",61.0,6,Y
+202609,V8,6881,"Tu, HuanX",12344075,5,"Yang, Yang",64.0,6,Y
+202609,V8,6881,"Wang, SitingX",12364783,1,"Li, Yao",28.0,6,Y
+202609,STHI,6970,"Liu, CunyiX",11719817,3,"Liu, Junming",85.0,10,Y
+202609,STHI,6970,"Qi, LinglingX",11733861,1,"Hu, Jiayu",128.0,10,Y
+202609,STHI,6970,"Zhong, ZaimingX",11790469,7,"Hu, Jiayu",118.0,10,Y
+202609,STHI,6970,"Pu, XiaoliX",11900941,1,"Hu, Jiayu",107.0,10,Y
+202609,STHI,6970,"Guo, YingfangX",11919307,5,"Liu, Junming",149.0,10,Y
+202609,STHI,6970,"Wu, DongmeiX",11955631,3,"Liu, Junming",28.0,10,Y
+202609,STHI,6970,"Zheng, YanqiongX",11962665,6,"Hu, Jiang",9.0,10,
+202609,STHI,6970,"Geng, WentingX",12043684,2,"Hu, Jiang",175.0,10,Y
+202609,STHI,6970,"Wen, QiangX",12326084,3,"Liu, Junming",161.0,10,Y
+202609,STHI,6970,"Zhang, GaofengX",12326091,1,"Hu, Jiayu",171.0,10,Y
+202609,STHI,6970,"Fan, MingjieX",12336408,2,"Hu, Jiang",118.0,10,Y
+202609,STHI,6970,"Tang, LiX",12337321,4,"Yuan, Kaiqiang",70.0,10,Y
+202609,STHI,6970,"Dai, HangX",12344072,7,"Hu, Jiayu",24.0,10,Y
+202609,STHI,6970,"Li, ZhiyuanX",12345267,5,"Liu, Junming",69.0,10,Y
+202609,STHI,6970,"Li, AnzhiX",12345270,3,"Liu, Junming",59.0,10,Y
+202609,STHI,6970,"Wen, ChaoX",12347801,1,"Hu, Jiayu",158.0,10,Y
+202609,STHI,6970,"Zhu, XiX",12347889,6,"Hu, Jiang",123.0,10,Y
+202609,STHI,6970,"Zeng, JunlinX",12350926,2,"Hu, Jiang",191.0,10,Y
+202609,STHI,6970,"Zhou, TingtingX",12354368,4,"Yuan, Kaiqiang",98.0,10,Y
+202609,STHI,6970,"Huang, GongyuanX",12354575,7,"Hu, Jiayu",166.0,10,Y
+202609,STHI,6970,"Luo, MeixiuX",12354576,5,"Liu, Junming",113.0,10,Y
+202609,STHI,6970,"Wu, JianglinX",12354580,5,"Liu, Junming",115.0,10,Y
+202609,STHI,6970,"Li, LongerX",12357077,7,"Hu, Jiayu",108.0,10,Y
+202609,STHI,6970,"He, Guangqin1X",12357216,2,"Hu, Jiang",164.0,10,Y
+202609,STHI,6970,"He, XinyueX",12357296,3,"Liu, Junming",168.0,10,Y
+202609,TTT,7226,"Fu, DiX",11915245,7,"Li, Yao",419.0,10,Y
+202609,TTT,7226,"Gou, ZhiqiangX",11955624,5,"Yang, Yang",400.0,10,Y
+202609,TTT,7226,"Cheng, HuaX",12117225,6,"Deng, Chengyi",487.0,10,Y
+202609,TTT,7226,"Tang, WeiX",12230179,4,"Wei, Luyi",2.0,10,
+202609,TTT,7226,"Wu, WeiX",12234913,3,"Yang, Yang",587.0,10,Y
+202609,TTT,7226,"Chen, KeX",12316473,6,"Deng, Chengyi",441.0,10,Y
+202609,TTT,7226,"Wang, XinyuX",12329190,2,"Deng, Chengyi",507.0,10,Y
+202609,TTT,7226,"Chen, Xi1X",12330069,2,"Deng, Chengyi",50.0,10,Y
+202609,TTT,7226,"Jian, WubinX",12336422,1,"Li, Yao",550.0,10,Y
+202609,TTT,7226,"Feng, YuzeX",12350929,4,"Wei, Luyi",491.0,10,Y
+202609,TTT,7226,"Yang, WeiX",12357081,7,"Li, Yao",469.0,10,Y
+202609,TTT,7226,"Cai, XinchengX",12357212,4,"Wei, Luyi",378.0,10,Y
+202609,TTT,7226,"Liu, ChenlongX",12361834,5,"Yang, Yang",118.0,10,Y
+202609,TTT,7226,"Wu, GuannanX",12361846,3,"Yang, Yang",500.0,10,Y
+202609,OLB,7571,"Wei, QiangX",11753097,5,"Yang, Yang",1410.0,10,Y
+202609,OLB,7571,"Lan, XiaomengX",11770692,6,"Deng, Chengyi",757.0,10,Y
+202609,OLB,7571,"Lin, LingX",11855431,6,"Deng, Chengyi",1069.0,10,Y
+202609,OLB,7571,"Yan, JingX",11862241,7,"Li, Yao",1168.0,10,Y
+202609,OLB,7571,"Wu, HongyanX",11955635,1,"Li, Yao",637.0,10,Y
+202609,OLB,7571,"Li, HannaX",12136981,3,"Yang, Yang",877.0,10,Y
+202609,OLB,7571,"Zhao, RongrongX",12139784,4,"Wei, Luyi",565.0,10,Y
+202609,OLB,7571,"Huang, JianpingX",12326083,3,"Yang, Yang",1292.0,10,Y
+202609,OLB,7571,"Ji, WanxingX",12328957,2,"Deng, Chengyi",1025.0,10,Y
+202609,OLB,7571,"Chen, ZhongyouX",12343354,1,"Li, Yao",1358.0,10,Y
+202609,OLB,7571,"Nie, QianX",12345265,5,"Yang, Yang",1264.0,10,Y
+202609,OLB,7571,"Yang, ZhonghuaX",12354558,4,"Wei, Luyi",1209.0,10,Y
+202609,OLB,7571,"Yao, XinyingX",12357292,1,"Li, Yao",1012.0,10,Y
+202609,OLB,7571,"Wu, TongdaX",12358513,4,"Wei, Luyi",1195.0,10,Y
+202609,OLB,7571,"Cao, JingmingX",12358525,6,"Deng, Chengyi",819.0,10,Y
+202609,OLB,7571,"Wu, YongtingX",12364792,3,"Yang, Yang",201.0,10,Y
+202609,HDMX,7820,"Ye, KunboX",11709812,4,"Yuan, Kaiqiang",73.0,6,Y
+202609,HDMX,7820,"Wang, QianX N",11762365,5,"Liu, Junming",136.0,6,Y
+202609,HDMX,7820,"Liu, QingqingX",11822293,6,"Hu, Jiang",156.0,6,Y
+202609,HDMX,7820,"Liu, LeiX",11907120,7,"Hu, Jiayu",191.0,6,Y
+202609,HDMX,7820,"Dai, LinyanX",11919306,7,"Hu, Jiayu",130.0,6,Y
+202609,HDMX,7820,"Ren, XiaoqiongX",11935176,6,"Hu, Jiang",187.0,6,Y
+202609,HDMX,7820,"He, YanX",11959107,5,"Liu, Junming",143.0,6,Y
+202609,HDMX,7820,"Xie, JunyuX",11960148,4,"Yuan, Kaiqiang",72.0,6,Y
+202609,HDMX,7820,"Luo, YalanX",11968712,6,"Hu, Jiang",228.0,6,Y
+202609,HDMX,7820,"Wu, QiangX",12028341,1,"Hu, Jiayu",203.0,6,Y
+202609,HDMX,7820,"Liu, QiongX",12137017,5,"Liu, Junming",199.0,6,Y
+202609,HDMX,7820,"Liu, Yi2X",12234911,3,"Liu, Junming",213.0,6,Y
+202609,HDMX,7820,"Fu, FangjianX",12337336,4,"Yuan, Kaiqiang",133.0,6,Y
+202609,HDMX,7820,"Xu, HaishengX",12343501,6,"Hu, Jiang",181.0,6,Y
+202609,HDMX,7820,"Tang, HongqiangX",12343506,2,"Hu, Jiang",88.0,6,Y
+202609,HDMX,7820,"Zhang, XiongX",12345262,6,"Hu, Jiang",100.0,6,Y
+202609,HDMX,7820,"Xiang, MengX",12347797,7,"Hu, Jiayu",160.0,6,Y
+202609,HDMX,7820,"Ma, TaoX",12350920,6,"Hu, Jiang",220.0,6,Y
+202609,HDMX,7820,"Luo, ZhenghongX",12350922,5,"Liu, Junming",151.0,6,Y
+202609,HDMX,7820,"Zhang, YongfeiX",12350924,2,"Hu, Jiang",104.0,6,Y
+202609,HDMX,7820,"Liao, LiX",12354441,4,"Yuan, Kaiqiang",45.0,6,Y
+202609,HDMX,7820,"Xie, TingjunX",12357209,1,"Hu, Jiayu",158.0,6,Y
+202609,HDMX,7820,"Wang, YilongX",12361843,2,"Hu, Jiang",136.0,6,Y
+202609,HDMX,7820,"Xin, MengyanX",12361849,3,"Liu, Junming",199.0,6,Y
+202609,HDMX,7820,"Hu, AnchaoX",12361861,3,"Liu, Junming",158.0,6,Y
+202609,HDMX,7820,"Leng, MengyaoX",12364789,7,"Hu, Jiayu",65.0,6,Y
+202609,EOL MARK,7906,"Shu, PengX",11895384,1,"Li, Yao",237.0,10,Y
+202609,EOL MARK,7906,"Liu, WeiX K",11899925,2,"Deng, Chengyi",34.0,10,Y
+202609,EOL MARK,7906,"Wang, JinxuanX",11915558,6,"Deng, Chengyi",38.0,10,Y
+202609,EOL MARK,7906,"Ye, ChunmeiX",11992100,4,"Wei, Luyi",139.0,10,Y
+202609,EOL MARK,7906,"Zhang, Liang1X",12028603,3,"Yang, Yang",152.0,10,Y
+202609,EOL MARK,7906,"Li, JianyouX",12105964,7,"Li, Yao",121.0,10,Y
+202609,EOL MARK,7906,"Cheng, GuoX",12112991,4,"Wei, Luyi",23.0,10,Y
+202609,EOL MARK,7906,"Chen, ZhangjunX",12114734,7,"Li, Yao",145.0,10,Y
+202609,EOL MARK,7906,"Yao, MingX",12234917,5,"Yang, Yang",129.0,10,Y
+202609,EOL MARK,7906,"Tian, LingX",12331515,6,"Deng, Chengyi",106.0,10,Y
+202609,EOL MARK,7906,"Zhang, ZhuohangX",12358507,1,"Li, Yao",117.0,10,Y
+202609,EOL MARK,7906,"Shao, TianchengX",12361839,2,"Deng, Chengyi",155.0,10,Y
+202609,EOL MARK,7906,"Zou, ZhiguoX",12361855,5,"Yang, Yang",148.0,10,Y
+202609,EOL MARK,7906,"Chen, NandongX",12361871,6,"Deng, Chengyi",80.0,10,Y
+202609,EOL MARK,7906,"Li, QishuaiX",12361873,6,"Deng, Chengyi",229.0,10,Y
