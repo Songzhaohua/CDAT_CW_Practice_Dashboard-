@@ -11,7 +11,6 @@ month,module,operation,name,wwid,team,super,practice_lot_qty,monthly_practice_go
 202608,TACS23,2174,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",0.0,12,Y
 202608,TACS1,2170,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",0.0,10,
 202608,TACS1,2173,"Luo, BingqinX",11922351,4,"Yuan, Kaiqiang",0.0,10,
-202608,V8,6881,,,5,"Yang, Yang",0.0,6,
 202608,TACS1,2170,"He, Qiaoling",12046979,3,"Deng, Qiang",0.0,10,
 202608,TACS1,2173,"He, Qiaoling",12046979,3,"Deng, Qiang",0.0,10,
 202608,OLB,7571,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0.0,10,
@@ -35,7 +34,6 @@ month,module,operation,name,wwid,team,super,practice_lot_qty,monthly_practice_go
 202608,HDMX,7820,"Leng, MengyaoX",12364789,7,"Hu, Jiayu",0.0,6,
 202608,V8,6881,"Wang, SitingX",12364783,1,"Li, Yao",0.0,6,
 202608,DVI,1007,"Zhao, YuanchaoX",12350935,4,"Wei, Luyi",0.0,10,
-202608,DVI,1007,,,5,"Yang, Yang",0.0,10,
 202608,DVI,1007,"Liu, JinhaoX",12364756,2,"Deng, Chengyi",0.0,10,
 202608,DVI,1007,"Huang, QingxiuX",12364778,4,"Wei, Luyi",0.0,10,
 202608,STHI,6970,"Zhang, Yingxia",12336402,3,"Liu, Junming",0.0,10,
@@ -373,7 +371,6 @@ month,module,operation,name,wwid,team,super,practice_lot_qty,monthly_practice_go
 202609,EOL MARK,7906,"Huang, LiX",11898885,7,"Li, Yao",0.0,10,
 202609,TACS23,2174,"Zheng, KongqiangX",11900939,1,"Kang, Zhuang",0.0,12,Y
 202609,TACS23,2174,"He, LiangyuX",11961517,3,"Deng, Qiang",0.0,12,
-202609,V8,6881,,,5,"Yang, Yang",0.0,6,
 202609,TACS1,2170,"He, Qiaoling",12046979,3,"Deng, Qiang",0.0,10,
 202609,TACS1,2173,"He, Qiaoling",12046979,3,"Deng, Qiang",0.0,10,
 202609,OLB,7571,"Hou, ZhouyueX",12103751,2,"Deng, Chengyi",0.0,10,
@@ -383,7 +380,6 @@ month,module,operation,name,wwid,team,super,practice_lot_qty,monthly_practice_go
 202609,TPX,4992,"Li, XueruiX",12136980,2,"Sun, Cuibing",0.0,10,
 202609,TACS23,2174,"Chen, FengzhongX",12136982,6,"Sun, Cuibing",0.0,12,
 202609,DVI,1007,"Zhao, YuanchaoX",12350935,4,"Wei, Luyi",0.0,10,
-202609,DVI,1007,,,5,"Yang, Yang",0.0,10,
 202609,STHI,6970,"Zhang, Yingxia",12336402,3,"Liu, Junming",0.0,10,
 202609,NXR,0265,"Wang, YanbinX",11777409,7,"Kang, Zhuang",244.0,4,Y
 202609,NXR,0265,"Li, ChunhangX",11959097,5,"Deng, Qiang",264.0,4,Y
