@@ -209,8 +209,9 @@ with tab_goal:
 
         col_a, col_b = st.columns(2)
         col_a.metric("Operator/month/module/operation combos", f"{len(summary):,}")
-        col_b.metric("Met goal", f"{summary['met_goal'].sum():,} / {len(summary):,}")
-        col_b.markdown(
+        goal_metric, goal_link = col_b.columns([1, 3])
+        goal_metric.metric("Met goal", f"{summary['met_goal'].sum():,} / {len(summary):,}")
+        goal_link.markdown(
             "[Justification for operators missing their goals](https://content.sseprod.intel.com/sites/CD/CDATwebshare/IonReport/Cross_training/CW_practice_data.aspx)"
         )
 
