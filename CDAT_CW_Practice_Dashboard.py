@@ -210,13 +210,13 @@ with tab_goal:
         col_a, col_b = st.columns(2)
         col_a.metric("Operator/month/module/operation combos", f"{len(summary):,}")
         col_b.metric("Met goal", f"{summary['met_goal'].sum():,} / {len(summary):,}")
+        st.markdown(
+            "[Justification for operators missing their goals](https://content.sseprod.intel.com/sites/CD/CDATwebshare/IonReport/Cross_training/CW_practice_data.aspx)"
+        )
 
         if summary.empty:
             st.info("No rows match the selected goal status filter.")
         else:
-            st.markdown(
-                "[Justification for operators missing their goals](https://content.sseprod.intel.com/sites/CD/CDATwebshare/IonReport/Cross_training/CW_practice_data.aspx)"
-            )
 
             def highlight_goal(row):
                 val = str(row.get("Complete_80_percent_tasks", "")).strip().upper()
