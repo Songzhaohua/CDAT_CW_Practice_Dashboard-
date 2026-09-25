@@ -214,6 +214,10 @@ with tab_goal:
         if summary.empty:
             st.info("No rows match the selected goal status filter.")
         else:
+            st.markdown(
+                "[Justification for missing goal operators](https://content.sseprod.intel.com/sites/CD/CDATwebshare/IonReport/Cross_training/CW_practice_data.aspx)"
+            )
+
             def highlight_goal(row):
                 val = str(row.get("Complete_80_percent_tasks", "")).strip().upper()
                 color = "background-color: #c6efce" if val in ("Y", "YES", "TRUE", "1") else "background-color: #ffc7ce"
