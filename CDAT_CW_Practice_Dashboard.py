@@ -267,10 +267,11 @@ with tab_goal:
                     )
 
 with tab_data:
-    st.dataframe(filtered, use_container_width=True, height=500)
+    raw_data = filtered.drop(columns=["practice_shift_qty"], errors="ignore")
+    st.dataframe(raw_data, use_container_width=True, height=500)
     st.download_button(
         "Download filtered data as CSV",
-        data=filtered.to_csv(index=False).encode("utf-8"),
+        data=raw_data.to_csv(index=False).encode("utf-8"),
         file_name="filtered_practice_data.csv",
         mime="text/csv",
     )
