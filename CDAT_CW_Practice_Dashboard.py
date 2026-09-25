@@ -215,7 +215,7 @@ with tab_goal:
             st.info("No rows match the selected goal status filter.")
         else:
             st.markdown(
-                "[Justification for missing goal operators](https://content.sseprod.intel.com/sites/CD/CDATwebshare/IonReport/Cross_training/CW_practice_data.aspx)"
+                "[Justification for operators missing their goals](https://content.sseprod.intel.com/sites/CD/CDATwebshare/IonReport/Cross_training/CW_practice_data.aspx)"
             )
 
             def highlight_goal(row):
