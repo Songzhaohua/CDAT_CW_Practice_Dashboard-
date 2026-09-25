@@ -154,7 +154,7 @@ with tab_goal:
         .agg(
             team=("team", "first"),
             super=("super", "first"),
-            practiced_qty=("practice_lot_qty", "sum"),
+            practiced_qty=("practice_lot_qty", "first"),
             **{
                 "monthly practice goal": ("monthly practice goal", "max"),
                 "Complete_80_percent_tasks": (
