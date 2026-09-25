@@ -101,10 +101,9 @@ if operations:
 
 st.caption(f"Showing **{len(filtered):,}** of {len(df):,} rows")
 
-col1, col2, col3 = st.columns(3)
+col1, col2 = st.columns(2)
 col1.metric("Distinct operations", f"{filtered['operation'].nunique():,}")
-col2.metric("Total practice qty", f"{filtered['practice_lot_qty'].sum():,.0f}")
-col3.metric("Distinct operators", f"{filtered['name'].nunique():,}")
+col2.metric("Distinct operators", f"{filtered['name'].nunique():,}")
 
 tab_goal, tab_trend, tab_by_person, tab_by_module, tab_data = st.tabs(
     ["🎯 Goal comparison", "📈 Trend", "🧑 By operator", "🏭 By module", "📄 Raw data"]
