@@ -18,6 +18,7 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
     aliases = {
         "month": "site_month",
         "monthly_practice_goal": "monthly practice goal",
+        "complete_80_percent_tasks": "Complete_80_percent_tasks",
     }
     rename = {
         source: target
@@ -29,6 +30,8 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
         normalized["Complete_80_percent_tasks"] = ""
     else:
         normalized["Complete_80_percent_tasks"] = normalized["Complete_80_percent_tasks"].fillna("")
+    if "practice_shift_qty" not in normalized.columns:
+        normalized["practice_shift_qty"] = 0
     return normalized
 
 
