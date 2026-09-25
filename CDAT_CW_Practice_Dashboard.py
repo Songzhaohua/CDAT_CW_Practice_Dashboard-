@@ -102,7 +102,7 @@ if operations:
 st.caption(f"Showing **{len(filtered):,}** of {len(df):,} rows")
 
 col1, col2, col3 = st.columns(3)
-col1.metric("Distinct operation", f"{filtered['operation'].nunique():,}")
+col1.metric("Distinct operations", f"{filtered['operation'].nunique():,}")
 col2.metric("Total practice qty", f"{filtered['practice_lot_qty'].sum():,.0f}")
 col3.metric("Distinct operators", f"{filtered['name'].nunique():,}")
 
