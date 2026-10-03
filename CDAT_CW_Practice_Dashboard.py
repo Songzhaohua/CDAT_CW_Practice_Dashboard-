@@ -83,7 +83,6 @@ with st.sidebar:
     teams = st.multiselect("Team", sorted(df["team"].unique()))
     supers = st.multiselect("Supervisor", sorted(df["super"].dropna().unique()))
     names = st.multiselect("Name", sorted(df["name"].dropna().unique()))
-    operations = st.multiselect("Operation", sorted(df["operation"].dropna().unique()))
 
 filtered = df.copy()
 if site_months:
@@ -96,14 +95,10 @@ if supers:
     filtered = filtered[filtered["super"].isin(supers)]
 if names:
     filtered = filtered[filtered["name"].isin(names)]
-if operations:
-    filtered = filtered[filtered["operation"].isin(operations)]
 
 st.caption(f"Showing **{len(filtered):,}** of {len(df):,} rows")
 
-col1, col2 = st.columns(2)
-col1.metric("Distinct operations", f"{filtered['operation'].nunique():,}")
-col2.metric("Distinct operators", f"{filtered['name'].nunique():,}")
+st.metric("Distinct operators", f"{filtered['name'].nunique():,}")
 
 tab_goal, tab_trend, tab_by_person, tab_by_module, tab_data = st.tabs(
     ["🎯 Goal comparison", "📈 Trend", "🧑 By operator", "🏭 By module", "📄 Raw data"]
@@ -148,7 +143,7 @@ with tab_by_module:
 
 with tab_goal:
     summary = (
-        filtered.groupby(["name", "site_month", "module", "operation"])
+        filtered.groupby(["name", "site_month", "module"])
         .agg(
             team=("team", "first"),
             super=("super", "first"),
@@ -170,7 +165,6 @@ with tab_goal:
             "name",
             "team",
             "super",
-            "operation",
             "practiced_qty",
             "monthly practice goal",
             "Complete_80_percent_tasks",
@@ -207,7 +201,7 @@ with tab_goal:
         )
 
         col_a, col_b = st.columns(2)
-        col_a.metric("Operator/month/module/operation combos", f"{len(summary):,}")
+        col_a.metric("Operator/month/module combinations", f"{len(summary):,}")
         goal_metric, goal_link = col_b.columns([1, 3])
         goal_metric.metric("Met goal", f"{summary['met_goal'].sum():,} / {len(summary):,}")
         goal_link.markdown(
@@ -255,10 +249,9 @@ with tab_goal:
                         (filtered["name"] == sel["name"])
                         & (filtered["site_month"] == sel["site_month"])
                         & (filtered["module"] == sel["module"])
-                        & (filtered["operation"] == sel["operation"])
                     ]
                     st.subheader(
-                        f"Lot details — {sel['name']} · {sel['site_month']} · {sel['module']} · operation {sel['operation']}"
+                        f"Lot details — {sel['name']} · {sel['site_month']} · {sel['module']}"
                     )
                     st.dataframe(detail, use_container_width=True)
                     st.download_button(
@@ -270,7 +263,7 @@ with tab_goal:
                     )
 
 with tab_data:
-    raw_data = filtered.drop(columns=["practice_shift_qty"], errors="ignore")
+    raw_data = filtered.drop(columns=["practice_shift_qty", "operation"], errors="ignore")
     st.dataframe(raw_data, use_container_width=True, height=500)
     st.download_button(
         "Download filtered data as CSV",
