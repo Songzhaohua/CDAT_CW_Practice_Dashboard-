@@ -1,4 +1,5 @@
 import os
+import time
 
 import pandas as pd
 import streamlit as st
@@ -12,6 +13,19 @@ DEFAULT_CSV_PATH = os.path.join(os.path.dirname(__file__), "data", "CDAT_CW_Prac
 CSV_PATH = os.environ.get("CW_CSV_PATH", DEFAULT_CSV_PATH)
 
 st.set_page_config(page_title="CW Practice Dashboard", page_icon="📊", layout="wide")
+
+st.session_state["_last_app_refresh"] = time.monotonic()
+
+
+@st.fragment(run_every="5m")
+def auto_refresh_dashboard() -> None:
+    now = time.monotonic()
+    if now - st.session_state["_last_app_refresh"] >= 300:
+        st.session_state["_last_app_refresh"] = now
+        st.rerun(scope="app")
+
+
+auto_refresh_dashboard()
 
 
 def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
