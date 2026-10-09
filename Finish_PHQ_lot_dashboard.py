@@ -1,4 +1,5 @@
 import os
+from io import BytesIO
 
 import pandas as pd
 import streamlit as st
@@ -13,7 +14,7 @@ st.set_page_config(page_title="Finish PHQ Lot Report", layout="wide")
 
 
 @st.cache_data(ttl=300)
-def load_data(path: str) -> pd.DataFrame:
+def load_data(path: str | BytesIO) -> pd.DataFrame:
 	data = pd.read_csv(path, dtype={"LOT": "string", "AT_MRB1": "string"})
 	data["QUANTITY"] = pd.to_numeric(data["QUANTITY"], errors="coerce").fillna(0)
 	data["DAYS_AT_OPERATION"] = pd.to_numeric(
@@ -35,17 +36,26 @@ with st.sidebar:
 
 try:
 	df = load_data(CSV_PATH)
-except (OSError, pd.errors.ParserError, UnicodeError) as exc:
-	st.error(f"Unable to read the PHQ lot CSV: {exc}")
-	st.stop()
-
-try:
-	updated = pd.Timestamp.fromtimestamp(os.path.getmtime(CSV_PATH)).strftime(
-		"%Y-%m-%d %H:%M"
-	)
-except OSError:
-	updated = "unknown"
-st.caption(f"Source updated: {updated} · {len(df):,} rows loaded")
+except (OSError, pd.errors.ParserError, UnicodeError):
+	st.info("The internal CSV is unavailable on this server. Upload it only if your organization permits use of Streamlit Cloud for this data.")
+	uploaded_file = st.file_uploader("Finish PHQ lot CSV", type="csv")
+	if uploaded_file is None:
+		st.stop()
+	try:
+		df = load_data(uploaded_file)
+	except (OSError, pd.errors.ParserError, UnicodeError, KeyError, ValueError) as exc:
+		st.error(f"Could not read the uploaded CSV: {exc}")
+		st.stop()
+	source_label = f"Uploaded: {uploaded_file.name}"
+else:
+	try:
+		updated = pd.Timestamp.fromtimestamp(os.path.getmtime(CSV_PATH)).strftime(
+			"%Y-%m-%d %H:%M"
+		)
+	except OSError:
+		updated = "unknown"
+	source_label = f"Source updated: {updated}"
+st.caption(f"{source_label} · {len(df):,} rows loaded")
 
 with st.sidebar:
 	groups = st.multiselect("Product group", sorted(df["PRODGROUP3"].dropna().unique()))
